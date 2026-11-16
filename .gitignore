@@ -1,0 +1,39 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+mad_venv/
+
+# Dataset - do not upload
+Dataset/
+dataset/
+datasets/
+
+# Training runs and temporary outputs
+runs/
+*.log
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine

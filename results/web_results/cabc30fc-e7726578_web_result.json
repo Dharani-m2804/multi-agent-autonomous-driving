@@ -1,0 +1,764 @@
+{
+    "image": "cabc30fc-e7726578.jpg",
+    "perception": {
+        "image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\Dataset\\bdd100k\\bdd100k\\images\\100k\\test\\cabc30fc-e7726578.jpg",
+        "model": "yolov8",
+        "model_path": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\runs\\detect\\runs\\bdd100k_yolov8n-2\\weights\\best.pt",
+        "num_objects": 6,
+        "detections": [
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.9036,
+                "bbox": [
+                    464.43,
+                    404.63,
+                    594.14,
+                    504.5
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.8349,
+                "bbox": [
+                    655.24,
+                    414.87,
+                    734.26,
+                    486.17
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7654,
+                "bbox": [
+                    614.28,
+                    426.37,
+                    655.71,
+                    461.48
+                ]
+            },
+            {
+                "class_id": 6,
+                "class": "pedestrian",
+                "confidence": 0.6769,
+                "bbox": [
+                    1135.91,
+                    388.24,
+                    1180.92,
+                    495.12
+                ]
+            },
+            {
+                "class_id": 9,
+                "class": "traffic sign",
+                "confidence": 0.4835,
+                "bbox": [
+                    577.75,
+                    378.03,
+                    603.33,
+                    413.14
+                ]
+            },
+            {
+                "class_id": 9,
+                "class": "traffic sign",
+                "confidence": 0.3931,
+                "bbox": [
+                    583.05,
+                    326.44,
+                    625.29,
+                    379.06
+                ]
+            }
+        ],
+        "summary": {
+            "car": 3,
+            "pedestrian": 1,
+            "traffic sign": 2
+        },
+        "annotated_image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\results\\perception_visualizations\\cabc30fc-e7726578_yolov8_detected.jpg"
+    },
+    "scene_understanding": {
+        "scene_type": "sign-controlled road",
+        "traffic_density": "low",
+        "object_summary": {
+            "car": 3,
+            "pedestrian": 1,
+            "traffic sign": 2
+        },
+        "vehicle_count": 3,
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "risk_level": "HIGH",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "planning": {
+        "action": "STOP",
+        "speed_level": "0 km/h",
+        "reason": "High-risk road situation detected. The vehicle should stop until the situation is confirmed safe.",
+        "priority": "CRITICAL",
+        "risk_level": "HIGH",
+        "vehicle_count": 3,
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "traffic_density": "low",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "safety": {
+        "proposed_action": "STOP",
+        "final_action": "STOP",
+        "decision": "OVERRIDE",
+        "safety_level": "CRITICAL",
+        "reasons": [
+            "Vulnerable road user detected.",
+            "Vehicle should stop until the road situation is confirmed safe."
+        ],
+        "risk_level": "HIGH",
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "traffic_density": "low",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "tracking": [
+        {
+            "track_id": 1,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.9036,
+            "bbox": [
+                464.43,
+                404.63,
+                594.14,
+                504.5
+            ],
+            "center": [
+                529.28,
+                454.56
+            ],
+            "previous_center": [
+                529.28,
+                454.56
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    529.28,
+                    454.56
+                ]
+            ]
+        },
+        {
+            "track_id": 2,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.8349,
+            "bbox": [
+                655.24,
+                414.87,
+                734.26,
+                486.17
+            ],
+            "center": [
+                694.75,
+                450.52
+            ],
+            "previous_center": [
+                694.75,
+                450.52
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    694.75,
+                    450.52
+                ]
+            ]
+        },
+        {
+            "track_id": 3,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.7654,
+            "bbox": [
+                614.28,
+                426.37,
+                655.71,
+                461.48
+            ],
+            "center": [
+                635.0,
+                443.93
+            ],
+            "previous_center": [
+                635.0,
+                443.93
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    635.0,
+                    443.93
+                ]
+            ]
+        },
+        {
+            "track_id": 4,
+            "class_id": 6,
+            "class": "pedestrian",
+            "confidence": 0.6769,
+            "bbox": [
+                1135.91,
+                388.24,
+                1180.92,
+                495.12
+            ],
+            "center": [
+                1158.41,
+                441.68
+            ],
+            "previous_center": [
+                1158.41,
+                441.68
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    1158.41,
+                    441.68
+                ]
+            ]
+        },
+        {
+            "track_id": 5,
+            "class_id": 9,
+            "class": "traffic sign",
+            "confidence": 0.4835,
+            "bbox": [
+                577.75,
+                378.03,
+                603.33,
+                413.14
+            ],
+            "center": [
+                590.54,
+                395.58
+            ],
+            "previous_center": [
+                590.54,
+                395.58
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    590.54,
+                    395.58
+                ]
+            ]
+        },
+        {
+            "track_id": 6,
+            "class_id": 9,
+            "class": "traffic sign",
+            "confidence": 0.3931,
+            "bbox": [
+                583.05,
+                326.44,
+                625.29,
+                379.06
+            ],
+            "center": [
+                604.17,
+                352.75
+            ],
+            "previous_center": [
+                604.17,
+                352.75
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    604.17,
+                    352.75
+                ]
+            ]
+        }
+    ],
+    "trajectory": [
+        {
+            "track_id": 1,
+            "class": "car",
+            "confidence": 0.9036,
+            "current_position": [
+                529.28,
+                454.56
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        529.28,
+                        454.56
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        529.28,
+                        454.56
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        529.28,
+                        454.56
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        529.28,
+                        454.56
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 2,
+            "class": "car",
+            "confidence": 0.8349,
+            "current_position": [
+                694.75,
+                450.52
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        694.75,
+                        450.52
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        694.75,
+                        450.52
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        694.75,
+                        450.52
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        694.75,
+                        450.52
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 3,
+            "class": "car",
+            "confidence": 0.7654,
+            "current_position": [
+                635.0,
+                443.93
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        635.0,
+                        443.93
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        635.0,
+                        443.93
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        635.0,
+                        443.93
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        635.0,
+                        443.93
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 4,
+            "class": "pedestrian",
+            "confidence": 0.6769,
+            "current_position": [
+                1158.41,
+                441.68
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        1158.41,
+                        441.68
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        1158.41,
+                        441.68
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        1158.41,
+                        441.68
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        1158.41,
+                        441.68
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 5,
+            "class": "traffic sign",
+            "confidence": 0.4835,
+            "current_position": [
+                590.54,
+                395.58
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        590.54,
+                        395.58
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        590.54,
+                        395.58
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        590.54,
+                        395.58
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        590.54,
+                        395.58
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 6,
+            "class": "traffic sign",
+            "confidence": 0.3931,
+            "current_position": [
+                604.17,
+                352.75
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        604.17,
+                        352.75
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        604.17,
+                        352.75
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        604.17,
+                        352.75
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        604.17,
+                        352.75
+                    ]
+                }
+            ]
+        }
+    ],
+    "risk_fusion": {
+        "risk_score": 1.0,
+        "risk_percentage": 100.0,
+        "final_action": "STOP",
+        "agent_conflict": false,
+        "risk_components": {
+            "scene_risk": 0.25,
+            "object_risk": 0.2,
+            "prediction_risk": 0.35,
+            "planning_risk": 0.2,
+            "safety_risk": 0.35,
+            "conflict_risk": 0.0
+        },
+        "highest_risk_object": {
+            "track_id": 3,
+            "class": "car",
+            "confidence": 0.7654,
+            "object_risk": 0.2,
+            "prediction_risk": 0.35,
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "current_position": [
+                635.0,
+                443.93
+            ]
+        },
+        "object_risks": [
+            {
+                "track_id": 1,
+                "class": "car",
+                "confidence": 0.9036,
+                "object_risk": 0.12,
+                "prediction_risk": 0.35,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    529.28,
+                    454.56
+                ]
+            },
+            {
+                "track_id": 2,
+                "class": "car",
+                "confidence": 0.8349,
+                "object_risk": 0.17,
+                "prediction_risk": 0.35,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    694.75,
+                    450.52
+                ]
+            },
+            {
+                "track_id": 3,
+                "class": "car",
+                "confidence": 0.7654,
+                "object_risk": 0.2,
+                "prediction_risk": 0.35,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    635.0,
+                    443.93
+                ]
+            },
+            {
+                "track_id": 4,
+                "class": "pedestrian",
+                "confidence": 0.6769,
+                "object_risk": 0.25,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    1158.41,
+                    441.68
+                ]
+            },
+            {
+                "track_id": 5,
+                "class": "traffic sign",
+                "confidence": 0.4835,
+                "object_risk": 0.25,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    590.54,
+                    395.58
+                ]
+            },
+            {
+                "track_id": 6,
+                "class": "traffic sign",
+                "confidence": 0.3931,
+                "object_risk": 0.3,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    604.17,
+                    352.75
+                ]
+            }
+        ],
+        "reasons": [
+            "Elevated scene-level risk",
+            "Elevated object-level risk",
+            "Predicted trajectory approaches the ego danger zone",
+            "Planning agent recommends STOP",
+            "Safety agent indicates elevated risk"
+        ]
+    },
+    "explanation": {
+        "final_action": "STOP",
+        "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 3 car, 1 pedestrian, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 3 vehicle(s), 1 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Vehicle should stop until the road situation is confirmed safe. The Confidence-Aware Risk Fusion Agent calculated a normalized risk score of 1.00 (100.0%). The corresponding fused risk level was 'HIGH'. A predicted trajectory threat contributed to the risk assessment. The Planning and Safety Agents were consistent. Therefore, the final recommended driving action is 'STOP'.",
+        "object_summary": "3 car, 1 pedestrian, 2 traffic sign",
+        "scene_type": "sign-controlled road",
+        "traffic_density": "low",
+        "risk_level": "HIGH",
+        "risk_score": 1.0,
+        "risk_percentage": 100.0,
+        "planning_action": "STOP",
+        "safety_decision": "OVERRIDE",
+        "safety_action": "STOP",
+        "safety_level": "CRITICAL",
+        "agent_conflict": false,
+        "trajectory_threat": true,
+        "risk_breakdown": [
+            "High scene-level risk contributes to the final decision.",
+            "Object-level factors contribute to the risk score.",
+            "Predicted object motion approaches the estimated ego danger region.",
+            "The Planning Agent contributes elevated risk because it recommends STOP.",
+            "The Safety Agent identifies elevated safety risk.",
+            "No disagreement exists between the Planning and Safety Agents."
+        ],
+        "risk_reasons": [
+            "Elevated scene-level risk",
+            "Elevated object-level risk",
+            "Predicted trajectory approaches the ego danger zone",
+            "Planning agent recommends STOP",
+            "Safety agent indicates elevated risk"
+        ],
+        "trajectory_count": 6
+    },
+    "processing_time": 8.531923532485962
+}

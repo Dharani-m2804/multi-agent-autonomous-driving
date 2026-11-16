@@ -1,0 +1,51 @@
+{
+    "dataset": "BDD100K",
+    "split": "validation",
+    "images_requested": 10000,
+    "images_processed": 10000,
+    "errors": 0,
+    "average_objects_per_image": 14.0131,
+    "baseline": {
+        "actions": {
+            "SLOW": 7278,
+            "STOP": 2294,
+            "GO": 428
+        },
+        "processing_time_seconds": 0.5972,
+        "average_time_seconds": 6e-05,
+        "fps": 16743.7018
+    },
+    "proposed_risk_fusion": {
+        "actions": {
+            "SLOW": 5068,
+            "STOP": 4653,
+            "GO": 279
+        },
+        "risk_levels": {
+            "MODERATE": 5266,
+            "HIGH": 4364,
+            "LOW": 370
+        },
+        "agent_conflicts": 0,
+        "processing_time_seconds": 6.1039,
+        "average_time_seconds": 0.00061,
+        "fps": 1638.2898
+    },
+    "scene_distribution": {
+        "traffic-controlled road": 5137,
+        "sign-controlled road": 3354,
+        "high-density roadway": 242,
+        "roadway": 1069,
+        "road with vulnerable road users": 183,
+        "unknown": 15
+    },
+    "safety_decisions": {
+        "APPROVE": 7706,
+        "OVERRIDE": 2294
+    },
+    "overall": {
+        "processing_time_seconds": 1701.1133,
+        "fps": 5.8785
+    },
+    "errors_detail": []
+}

@@ -1,0 +1,76 @@
+================================================================================
+CONFIDENCE-AWARE RISK FUSION
+DECISION-BEHAVIOR ABLATION REPORT
+================================================================================
+
+Dataset: BDD100K validation set
+Images processed: 10000
+
+TABLE 1 — BASELINE VS PROPOSED DECISION DISTRIBUTION
+--------------------------------------------------------------------------------
+Decision           Baseline Count     Baseline %    Proposed Count     Proposed %
+--------------------------------------------------------------------------------
+GO                            428          4.28%               279          2.79%
+SLOW                         7278         72.78%              5068         50.68%
+STOP                         2294         22.94%              4653         46.53%
+--------------------------------------------------------------------------------
+
+TABLE 2 — DECISION SHIFT
+------------------------------------------------------------
+Decision                 Shift (percentage points)
+------------------------------------------------------------
+GO                                          -1.49
+SLOW                                       -22.10
+STOP                                        23.59
+------------------------------------------------------------
+
+TABLE 3 — PROPOSED RISK DISTRIBUTION
+------------------------------------------------------------
+Risk Level                    Count          Percentage
+------------------------------------------------------------
+LOW                             370               3.70%
+MODERATE                       5266              52.66%
+HIGH                           4364              43.64%
+------------------------------------------------------------
+
+TABLE 4 — ARCHITECTURE ABLATION
+-----------------------------------------------------------------------------------------------
+Configuration                    Perception     Scene    Planning    Safety    Risk Fusion
+-----------------------------------------------------------------------------------------------
+Baseline                                YES       YES         YES       YES             NO
+Proposed Risk-Aware Fusion              YES       YES         YES       YES            YES
+-----------------------------------------------------------------------------------------------
+
+TABLE 5 — CONTROLLED CONFLICT-RESOLUTION VALIDATION
+--------------------------------------------------------------------------------
+Scenario                                Planner      Safety    Conflict      Fusion
+--------------------------------------------------------------------------------
+Planner/Safety disagreement                  GO        STOP        TRUE        STOP
+--------------------------------------------------------------------------------
+
+PERFORMANCE INFORMATION
+--------------------------------------------------------------------------------
+Baseline decision-layer FPS : 16743.70
+Proposed decision-layer FPS : 1638.29
+Baseline decision-layer time: 0.000060 sec/image
+Proposed decision-layer time: 0.000610 sec/image
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+The proposed risk-fusion layer changes the final decision distribution compared with the baseline.
+GO changes from 4.28% to 2.79%.
+SLOW changes from 72.78% to 50.68%.
+STOP changes from 22.94% to 46.53%.
+
+These results demonstrate decision-behavior changes introduced by risk fusion.
+They should not be interpreted as safety-accuracy improvements because BDD100K does not provide GO/SLOW/STOP ground-truth labels for this experiment.
+
+The controlled conflict test detected a disagreement between the Planning and Safety agents and produced a safety-prioritized STOP decision.
+
+Natural agent conflicts in the 10,000-image evaluation: 0 (0.00%).
+
+Temporal tracking and trajectory prediction are architecture components but are not fully evaluated using the static BDD100K image set.
+
+================================================================================
+END OF ABLATION REPORT
+================================================================================

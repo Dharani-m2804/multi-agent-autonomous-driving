@@ -1,0 +1,248 @@
+{
+    "image": "f1599517-a9a854ab.jpg",
+    "perception": {
+        "image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\Dataset\\bdd100k\\bdd100k\\images\\100k\\test\\f1599517-a9a854ab.jpg",
+        "num_objects": 15,
+        "detections": [
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.8142,
+                "bbox": [
+                    1014.37,
+                    506.66,
+                    1280.0,
+                    715.19
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7788,
+                "bbox": [
+                    777.71,
+                    547.94,
+                    875.98,
+                    621.14
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7444,
+                "bbox": [
+                    587.58,
+                    526.04,
+                    705.66,
+                    619.07
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7219,
+                "bbox": [
+                    0.0,
+                    450.11,
+                    284.05,
+                    631.08
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7169,
+                "bbox": [
+                    514.21,
+                    538.25,
+                    559.55,
+                    575.6
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.638,
+                "bbox": [
+                    366.6,
+                    534.79,
+                    436.18,
+                    581.99
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.6117,
+                "bbox": [
+                    844.83,
+                    545.44,
+                    1013.38,
+                    651.99
+                ]
+            },
+            {
+                "class_id": 9,
+                "class": "traffic sign",
+                "confidence": 0.5503,
+                "bbox": [
+                    634.57,
+                    372.3,
+                    764.39,
+                    415.19
+                ]
+            },
+            {
+                "class_id": 8,
+                "class": "traffic light",
+                "confidence": 0.499,
+                "bbox": [
+                    530.42,
+                    506.71,
+                    542.63,
+                    520.53
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.4456,
+                "bbox": [
+                    472.27,
+                    535.62,
+                    503.58,
+                    569.16
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.3303,
+                "bbox": [
+                    720.98,
+                    495.44,
+                    840.65,
+                    599.89
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.3004,
+                "bbox": [
+                    420.5,
+                    530.14,
+                    465.53,
+                    574.59
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.296,
+                "bbox": [
+                    555.68,
+                    541.24,
+                    578.22,
+                    563.93
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.2833,
+                "bbox": [
+                    454.96,
+                    535.22,
+                    481.34,
+                    570.67
+                ]
+            },
+            {
+                "class_id": 1,
+                "class": "bus",
+                "confidence": 0.2824,
+                "bbox": [
+                    721.43,
+                    495.63,
+                    841.36,
+                    599.8
+                ]
+            }
+        ],
+        "summary": {
+            "car": 12,
+            "traffic sign": 1,
+            "traffic light": 1,
+            "bus": 1
+        },
+        "annotated_image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\results\\perception_visualizations\\f1599517-a9a854ab_detected.jpg"
+    },
+    "scene_understanding": {
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "moderate",
+        "object_summary": {
+            "car": 12,
+            "traffic sign": 1,
+            "traffic light": 1,
+            "bus": 1
+        },
+        "vehicle_count": 13,
+        "vulnerable_users": 0,
+        "traffic_controls": 2,
+        "risk_level": "MODERATE",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.55)",
+            "traffic light detected (confidence=0.50)"
+        ]
+    },
+    "planning": {
+        "action": "SLOW",
+        "speed_level": "LOW",
+        "reason": "Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions.",
+        "priority": "HIGH",
+        "risk_level": "MODERATE",
+        "vehicle_count": 13,
+        "vulnerable_users": 0,
+        "traffic_controls": 2,
+        "traffic_density": "moderate",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.55)",
+            "traffic light detected (confidence=0.50)"
+        ]
+    },
+    "safety": {
+        "proposed_action": "SLOW",
+        "final_action": "SLOW",
+        "decision": "APPROVE",
+        "safety_level": "CAUTION",
+        "reasons": [
+            "Traffic control infrastructure detected."
+        ],
+        "risk_level": "MODERATE",
+        "vulnerable_users": 0,
+        "traffic_controls": 2,
+        "traffic_density": "moderate",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.55)",
+            "traffic light detected (confidence=0.50)"
+        ]
+    },
+    "explanation": {
+        "final_action": "SLOW",
+        "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 1 bus, 12 car, 1 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 13 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'.",
+        "object_summary": {
+            "car": 12,
+            "traffic sign": 1,
+            "traffic light": 1,
+            "bus": 1
+        },
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "moderate",
+        "risk_level": "MODERATE",
+        "planning_action": "SLOW",
+        "safety_decision": "APPROVE",
+        "safety_level": "CAUTION"
+    },
+    "processing_time": 0.5785977840423584
+}

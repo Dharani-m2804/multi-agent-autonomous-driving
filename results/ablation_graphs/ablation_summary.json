@@ -1,0 +1,27 @@
+{
+    "images_processed": 10000,
+    "baseline": {
+        "GO": 4.28,
+        "SLOW": 72.78,
+        "STOP": 22.94
+    },
+    "proposed": {
+        "GO": 2.79,
+        "SLOW": 50.68,
+        "STOP": 46.53,
+        "LOW_RISK": 3.7,
+        "MODERATE_RISK": 52.66,
+        "HIGH_RISK": 43.64
+    },
+    "decision_shift_percentage_points": {
+        "GO": -1.49,
+        "SLOW": -22.1,
+        "STOP": 23.59
+    },
+    "agent_conflicts": 0,
+    "agent_conflict_percentage": 0.0,
+    "decision_layer_fps": {
+        "baseline": 16743.7,
+        "proposed": 1638.29
+    }
+}

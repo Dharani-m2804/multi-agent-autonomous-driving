@@ -1,0 +1,241 @@
+{
+    "project": "Multi-Agent Autonomous Driving",
+    "dataset": "BDD100K",
+    "split": "validation",
+    "image": "b1c66a42-6f7d68ca.jpg",
+    "image_path": "F:\\MultiAgent-Autonomous-Driving\\Dataset\\BDD100K_Extracted\\bdd100k\\bdd100k\\images\\100k\\val\\b1c66a42-6f7d68ca.jpg",
+    "model": "C:\\Users\\mdhar\\Documents\\MultiAgent-Autonomous-Driving\\runs\\bdd100k_yolov8n\\weights\\best.pt",
+    "confidence": 0.25,
+    "processing_time": 1.8325311000007787,
+    "objects_detected": 20,
+    "object_summary": {
+        "car": 20
+    },
+    "detections": [
+        {
+            "class": "car",
+            "confidence": 0.7849382162094116,
+            "bbox": [
+                789.14,
+                360.8,
+                896.22,
+                427.5
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.692665696144104,
+            "bbox": [
+                0.0,
+                335.96,
+                54.6,
+                401.7
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.6826160550117493,
+            "bbox": [
+                243.5,
+                346.76,
+                347.25,
+                393.1
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.6324119567871094,
+            "bbox": [
+                42.21,
+                347.74,
+                92.84,
+                396.67
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.6224446892738342,
+            "bbox": [
+                1209.97,
+                370.18,
+                1279.95,
+                529.62
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.5778591632843018,
+            "bbox": [
+                889.84,
+                336.35,
+                1207.1,
+                482.03
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.5631130337715149,
+            "bbox": [
+                590.49,
+                356.84,
+                623.65,
+                383.57
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.5073455572128296,
+            "bbox": [
+                202.01,
+                344.21,
+                247.85,
+                385.4
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.48359477519989014,
+            "bbox": [
+                728.59,
+                362.37,
+                774.12,
+                408.53
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.47325074672698975,
+            "bbox": [
+                614.18,
+                356.26,
+                640.4,
+                384.14
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.4321135878562927,
+            "bbox": [
+                753.08,
+                364.94,
+                799.88,
+                410.51
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.39615339040756226,
+            "bbox": [
+                687.56,
+                360.11,
+                724.3,
+                392.56
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.39028099179267883,
+            "bbox": [
+                43.51,
+                344.09,
+                126.46,
+                397.59
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.38584238290786743,
+            "bbox": [
+                213.1,
+                371.83,
+                287.37,
+                442.97
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.37694051861763,
+            "bbox": [
+                6.85,
+                336.02,
+                132.8,
+                397.95
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.3134653568267822,
+            "bbox": [
+                883.38,
+                379.27,
+                956.03,
+                448.04
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.30548298358917236,
+            "bbox": [
+                493.77,
+                343.71,
+                538.7,
+                372.83
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.30173149704933167,
+            "bbox": [
+                499.47,
+                350.22,
+                535.89,
+                373.55
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.2968839406967163,
+            "bbox": [
+                217.05,
+                345.13,
+                340.81,
+                410.86
+            ]
+        },
+        {
+            "class": "car",
+            "confidence": 0.269957035779953,
+            "bbox": [
+                635.74,
+                356.16,
+                663.35,
+                385.52
+            ]
+        }
+    ],
+    "scene": {
+        "scene_type": "high-density roadway",
+        "traffic_density": "high",
+        "vehicle_count": 20,
+        "vulnerable_count": 0,
+        "traffic_control_count": 0,
+        "risk_level": "HIGH",
+        "total_objects": 20
+    },
+    "planning": {
+        "action": "STOP",
+        "speed": "ZERO",
+        "priority": "HIGH",
+        "reason": "High-risk scene detected. Stop the vehicle and wait for a safer condition."
+    },
+    "safety": {
+        "decision": "APPROVE",
+        "final_action": "STOP",
+        "safety_level": "EMERGENCY",
+        "reasons": [
+            "High-risk scene detected."
+        ]
+    },
+    "final_action": "STOP",
+    "explanation": "The perception system detected 20 object(s). The scene was classified as 'high-density roadway'. Traffic density was classified as 'high'. The estimated scene risk level was 'HIGH'. The scene contained 20 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk scene detected. Stop the vehicle and wait for a safer condition. The Safety Agent returned 'APPROVE' with safety level 'EMERGENCY'. Therefore, the final recommended driving action is 'STOP'."
+}

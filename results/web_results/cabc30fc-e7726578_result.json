@@ -1,0 +1,81 @@
+{
+    "image": "cabc30fc-e7726578.jpg",
+    "perception": {
+        "num_objects": 6,
+        "summary": {
+            "car": 3,
+            "pedestrian": 1,
+            "traffic sign": 2
+        }
+    },
+    "scene": {
+        "scene_type": "sign-controlled road",
+        "traffic_density": "low",
+        "object_summary": {
+            "car": 3,
+            "pedestrian": 1,
+            "traffic sign": 2
+        },
+        "vehicle_count": 3,
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "risk_level": "HIGH",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "planning": {
+        "action": "STOP",
+        "speed_level": "0 km/h",
+        "reason": "High-risk road situation detected. The vehicle should stop until the situation is confirmed safe.",
+        "priority": "CRITICAL",
+        "risk_level": "HIGH",
+        "vehicle_count": 3,
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "traffic_density": "low",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "safety": {
+        "proposed_action": "STOP",
+        "final_action": "STOP",
+        "decision": "OVERRIDE",
+        "safety_level": "CRITICAL",
+        "reasons": [
+            "Vulnerable road user detected.",
+            "Vehicle should stop until the road situation is confirmed safe."
+        ],
+        "risk_level": "HIGH",
+        "vulnerable_users": 1,
+        "traffic_controls": 2,
+        "traffic_density": "low",
+        "risk_indicators": [
+            "pedestrian detected (confidence=0.68)",
+            "traffic sign detected (confidence=0.48)",
+            "traffic sign detected (confidence=0.39)"
+        ]
+    },
+    "explainability": {
+        "final_action": "STOP",
+        "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 3 car, 1 pedestrian, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 3 vehicle(s), 1 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'.",
+        "object_summary": {
+            "car": 3,
+            "pedestrian": 1,
+            "traffic sign": 2
+        },
+        "scene_type": "sign-controlled road",
+        "traffic_density": "low",
+        "risk_level": "HIGH",
+        "planning_action": "STOP",
+        "safety_decision": "OVERRIDE",
+        "safety_level": "CRITICAL"
+    },
+    "final_action": "STOP",
+    "processing_time_seconds": 5.544
+}

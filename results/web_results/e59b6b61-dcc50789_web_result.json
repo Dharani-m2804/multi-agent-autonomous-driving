@@ -1,0 +1,1687 @@
+{
+    "image": "e59b6b61-dcc50789.jpg",
+    "perception": {
+        "image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\Dataset\\bdd100k\\bdd100k\\images\\100k\\test\\e59b6b61-dcc50789.jpg",
+        "model": "yolov8",
+        "model_path": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\runs\\detect\\runs\\bdd100k_yolov8n-2\\weights\\best.pt",
+        "num_objects": 15,
+        "detections": [
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.8913,
+                "bbox": [
+                    756.65,
+                    335.29,
+                    917.49,
+                    457.84
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.878,
+                "bbox": [
+                    994.33,
+                    352.75,
+                    1266.45,
+                    482.29
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.8779,
+                "bbox": [
+                    558.15,
+                    314.57,
+                    700.32,
+                    466.75
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.798,
+                "bbox": [
+                    1103.77,
+                    361.9,
+                    1280.0,
+                    650.68
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7878,
+                "bbox": [
+                    911.42,
+                    355.97,
+                    1015.29,
+                    413.62
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7757,
+                "bbox": [
+                    693.42,
+                    355.39,
+                    766.83,
+                    408.38
+                ]
+            },
+            {
+                "class_id": 12,
+                "class": "truck",
+                "confidence": 0.6521,
+                "bbox": [
+                    862.54,
+                    277.21,
+                    1068.86,
+                    387.26
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.5247,
+                "bbox": [
+                    205.06,
+                    365.52,
+                    279.13,
+                    401.07
+                ]
+            },
+            {
+                "class_id": 8,
+                "class": "traffic light",
+                "confidence": 0.504,
+                "bbox": [
+                    576.7,
+                    294.59,
+                    589.6,
+                    311.65
+                ]
+            },
+            {
+                "class_id": 8,
+                "class": "traffic light",
+                "confidence": 0.5011,
+                "bbox": [
+                    642.19,
+                    312.84,
+                    654.68,
+                    328.22
+                ]
+            },
+            {
+                "class_id": 8,
+                "class": "traffic light",
+                "confidence": 0.4137,
+                "bbox": [
+                    765.64,
+                    313.75,
+                    777.22,
+                    329.79
+                ]
+            },
+            {
+                "class_id": 8,
+                "class": "traffic light",
+                "confidence": 0.2973,
+                "bbox": [
+                    575.51,
+                    293.36,
+                    592.04,
+                    312.95
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.2849,
+                "bbox": [
+                    1190.94,
+                    345.29,
+                    1260.87,
+                    381.81
+                ]
+            },
+            {
+                "class_id": 12,
+                "class": "truck",
+                "confidence": 0.2725,
+                "bbox": [
+                    695.29,
+                    333.99,
+                    735.95,
+                    364.18
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.2679,
+                "bbox": [
+                    1192.53,
+                    345.58,
+                    1261.96,
+                    371.84
+                ]
+            }
+        ],
+        "summary": {
+            "car": 9,
+            "truck": 2,
+            "traffic light": 4
+        },
+        "annotated_image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\results\\perception_visualizations\\e59b6b61-dcc50789_yolov8_detected.jpg"
+    },
+    "scene_understanding": {
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "moderate",
+        "object_summary": {
+            "car": 9,
+            "truck": 2,
+            "traffic light": 4
+        },
+        "vehicle_count": 11,
+        "vulnerable_users": 0,
+        "traffic_controls": 4,
+        "risk_level": "MODERATE",
+        "risk_indicators": [
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.41)",
+            "traffic light detected (confidence=0.30)"
+        ]
+    },
+    "planning": {
+        "action": "SLOW",
+        "speed_level": "LOW",
+        "reason": "Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions.",
+        "priority": "HIGH",
+        "risk_level": "MODERATE",
+        "vehicle_count": 11,
+        "vulnerable_users": 0,
+        "traffic_controls": 4,
+        "traffic_density": "moderate",
+        "risk_indicators": [
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.41)",
+            "traffic light detected (confidence=0.30)"
+        ]
+    },
+    "safety": {
+        "proposed_action": "SLOW",
+        "final_action": "SLOW",
+        "decision": "APPROVE",
+        "safety_level": "CAUTION",
+        "reasons": [
+            "Traffic control infrastructure detected."
+        ],
+        "risk_level": "MODERATE",
+        "vulnerable_users": 0,
+        "traffic_controls": 4,
+        "traffic_density": "moderate",
+        "risk_indicators": [
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.50)",
+            "traffic light detected (confidence=0.41)",
+            "traffic light detected (confidence=0.30)"
+        ]
+    },
+    "tracking": [
+        {
+            "track_id": 1,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.8913,
+            "bbox": [
+                756.65,
+                335.29,
+                917.49,
+                457.84
+            ],
+            "center": [
+                837.07,
+                396.56
+            ],
+            "previous_center": [
+                837.07,
+                396.56
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    837.07,
+                    396.56
+                ]
+            ]
+        },
+        {
+            "track_id": 2,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.878,
+            "bbox": [
+                994.33,
+                352.75,
+                1266.45,
+                482.29
+            ],
+            "center": [
+                1130.39,
+                417.52
+            ],
+            "previous_center": [
+                1130.39,
+                417.52
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    1130.39,
+                    417.52
+                ]
+            ]
+        },
+        {
+            "track_id": 3,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.8779,
+            "bbox": [
+                558.15,
+                314.57,
+                700.32,
+                466.75
+            ],
+            "center": [
+                629.24,
+                390.66
+            ],
+            "previous_center": [
+                629.24,
+                390.66
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    629.24,
+                    390.66
+                ]
+            ]
+        },
+        {
+            "track_id": 4,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.798,
+            "bbox": [
+                1103.77,
+                361.9,
+                1280.0,
+                650.68
+            ],
+            "center": [
+                1191.88,
+                506.29
+            ],
+            "previous_center": [
+                1191.88,
+                506.29
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    1191.88,
+                    506.29
+                ]
+            ]
+        },
+        {
+            "track_id": 5,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.7878,
+            "bbox": [
+                911.42,
+                355.97,
+                1015.29,
+                413.62
+            ],
+            "center": [
+                963.36,
+                384.8
+            ],
+            "previous_center": [
+                963.36,
+                384.8
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    963.36,
+                    384.8
+                ]
+            ]
+        },
+        {
+            "track_id": 6,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.7757,
+            "bbox": [
+                693.42,
+                355.39,
+                766.83,
+                408.38
+            ],
+            "center": [
+                730.12,
+                381.88
+            ],
+            "previous_center": [
+                730.12,
+                381.88
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    730.12,
+                    381.88
+                ]
+            ]
+        },
+        {
+            "track_id": 7,
+            "class_id": 12,
+            "class": "truck",
+            "confidence": 0.6521,
+            "bbox": [
+                862.54,
+                277.21,
+                1068.86,
+                387.26
+            ],
+            "center": [
+                965.7,
+                332.24
+            ],
+            "previous_center": [
+                965.7,
+                332.24
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    965.7,
+                    332.24
+                ]
+            ]
+        },
+        {
+            "track_id": 8,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.5247,
+            "bbox": [
+                205.06,
+                365.52,
+                279.13,
+                401.07
+            ],
+            "center": [
+                242.09,
+                383.29
+            ],
+            "previous_center": [
+                242.09,
+                383.29
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    242.09,
+                    383.29
+                ]
+            ]
+        },
+        {
+            "track_id": 9,
+            "class_id": 8,
+            "class": "traffic light",
+            "confidence": 0.504,
+            "bbox": [
+                576.7,
+                294.59,
+                589.6,
+                311.65
+            ],
+            "center": [
+                583.15,
+                303.12
+            ],
+            "previous_center": [
+                583.15,
+                303.12
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    583.15,
+                    303.12
+                ]
+            ]
+        },
+        {
+            "track_id": 10,
+            "class_id": 8,
+            "class": "traffic light",
+            "confidence": 0.5011,
+            "bbox": [
+                642.19,
+                312.84,
+                654.68,
+                328.22
+            ],
+            "center": [
+                648.43,
+                320.53
+            ],
+            "previous_center": [
+                648.43,
+                320.53
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    648.43,
+                    320.53
+                ]
+            ]
+        },
+        {
+            "track_id": 11,
+            "class_id": 8,
+            "class": "traffic light",
+            "confidence": 0.4137,
+            "bbox": [
+                765.64,
+                313.75,
+                777.22,
+                329.79
+            ],
+            "center": [
+                771.43,
+                321.77
+            ],
+            "previous_center": [
+                771.43,
+                321.77
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    771.43,
+                    321.77
+                ]
+            ]
+        },
+        {
+            "track_id": 12,
+            "class_id": 8,
+            "class": "traffic light",
+            "confidence": 0.2973,
+            "bbox": [
+                575.51,
+                293.36,
+                592.04,
+                312.95
+            ],
+            "center": [
+                583.77,
+                303.15
+            ],
+            "previous_center": [
+                583.77,
+                303.15
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    583.77,
+                    303.15
+                ]
+            ]
+        },
+        {
+            "track_id": 13,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.2849,
+            "bbox": [
+                1190.94,
+                345.29,
+                1260.87,
+                381.81
+            ],
+            "center": [
+                1225.9,
+                363.55
+            ],
+            "previous_center": [
+                1225.9,
+                363.55
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    1225.9,
+                    363.55
+                ]
+            ]
+        },
+        {
+            "track_id": 14,
+            "class_id": 12,
+            "class": "truck",
+            "confidence": 0.2725,
+            "bbox": [
+                695.29,
+                333.99,
+                735.95,
+                364.18
+            ],
+            "center": [
+                715.62,
+                349.09
+            ],
+            "previous_center": [
+                715.62,
+                349.09
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    715.62,
+                    349.09
+                ]
+            ]
+        },
+        {
+            "track_id": 15,
+            "class_id": 2,
+            "class": "car",
+            "confidence": 0.2679,
+            "bbox": [
+                1192.53,
+                345.58,
+                1261.96,
+                371.84
+            ],
+            "center": [
+                1227.24,
+                358.71
+            ],
+            "previous_center": [
+                1227.24,
+                358.71
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "frames_seen": 1,
+            "history": [
+                [
+                    1227.24,
+                    358.71
+                ]
+            ]
+        }
+    ],
+    "trajectory": [
+        {
+            "track_id": 1,
+            "class": "car",
+            "confidence": 0.8913,
+            "current_position": [
+                837.07,
+                396.56
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        837.07,
+                        396.56
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        837.07,
+                        396.56
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        837.07,
+                        396.56
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        837.07,
+                        396.56
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 2,
+            "class": "car",
+            "confidence": 0.878,
+            "current_position": [
+                1130.39,
+                417.52
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        1130.39,
+                        417.52
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        1130.39,
+                        417.52
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        1130.39,
+                        417.52
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        1130.39,
+                        417.52
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 3,
+            "class": "car",
+            "confidence": 0.8779,
+            "current_position": [
+                629.24,
+                390.66
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        629.24,
+                        390.66
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        629.24,
+                        390.66
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        629.24,
+                        390.66
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        629.24,
+                        390.66
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 4,
+            "class": "car",
+            "confidence": 0.798,
+            "current_position": [
+                1191.88,
+                506.29
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        1191.88,
+                        506.29
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        1191.88,
+                        506.29
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        1191.88,
+                        506.29
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        1191.88,
+                        506.29
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 5,
+            "class": "car",
+            "confidence": 0.7878,
+            "current_position": [
+                963.36,
+                384.8
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        963.36,
+                        384.8
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        963.36,
+                        384.8
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        963.36,
+                        384.8
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        963.36,
+                        384.8
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 6,
+            "class": "car",
+            "confidence": 0.7757,
+            "current_position": [
+                730.12,
+                381.88
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        730.12,
+                        381.88
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        730.12,
+                        381.88
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        730.12,
+                        381.88
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        730.12,
+                        381.88
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 7,
+            "class": "truck",
+            "confidence": 0.6521,
+            "current_position": [
+                965.7,
+                332.24
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        965.7,
+                        332.24
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        965.7,
+                        332.24
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        965.7,
+                        332.24
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        965.7,
+                        332.24
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 8,
+            "class": "car",
+            "confidence": 0.5247,
+            "current_position": [
+                242.09,
+                383.29
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        242.09,
+                        383.29
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        242.09,
+                        383.29
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        242.09,
+                        383.29
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        242.09,
+                        383.29
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 9,
+            "class": "traffic light",
+            "confidence": 0.504,
+            "current_position": [
+                583.15,
+                303.12
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        583.15,
+                        303.12
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        583.15,
+                        303.12
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        583.15,
+                        303.12
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        583.15,
+                        303.12
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 10,
+            "class": "traffic light",
+            "confidence": 0.5011,
+            "current_position": [
+                648.43,
+                320.53
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        648.43,
+                        320.53
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        648.43,
+                        320.53
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        648.43,
+                        320.53
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        648.43,
+                        320.53
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 11,
+            "class": "traffic light",
+            "confidence": 0.4137,
+            "current_position": [
+                771.43,
+                321.77
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        771.43,
+                        321.77
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        771.43,
+                        321.77
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        771.43,
+                        321.77
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        771.43,
+                        321.77
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 12,
+            "class": "traffic light",
+            "confidence": 0.2973,
+            "current_position": [
+                583.77,
+                303.15
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        583.77,
+                        303.15
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        583.77,
+                        303.15
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        583.77,
+                        303.15
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        583.77,
+                        303.15
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 13,
+            "class": "car",
+            "confidence": 0.2849,
+            "current_position": [
+                1225.9,
+                363.55
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        1225.9,
+                        363.55
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        1225.9,
+                        363.55
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        1225.9,
+                        363.55
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        1225.9,
+                        363.55
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 14,
+            "class": "truck",
+            "confidence": 0.2725,
+            "current_position": [
+                715.62,
+                349.09
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        715.62,
+                        349.09
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        715.62,
+                        349.09
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        715.62,
+                        349.09
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        715.62,
+                        349.09
+                    ]
+                }
+            ]
+        },
+        {
+            "track_id": 15,
+            "class": "car",
+            "confidence": 0.2679,
+            "current_position": [
+                1227.24,
+                358.71
+            ],
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "predictions": [
+                {
+                    "time_seconds": 0.5,
+                    "position": [
+                        1227.24,
+                        358.71
+                    ]
+                },
+                {
+                    "time_seconds": 1.0,
+                    "position": [
+                        1227.24,
+                        358.71
+                    ]
+                },
+                {
+                    "time_seconds": 1.5,
+                    "position": [
+                        1227.24,
+                        358.71
+                    ]
+                },
+                {
+                    "time_seconds": 2.0,
+                    "position": [
+                        1227.24,
+                        358.71
+                    ]
+                }
+            ]
+        }
+    ],
+    "risk_fusion": {
+        "risk_score": 0.53,
+        "risk_percentage": 53.0,
+        "final_action": "SLOW",
+        "agent_conflict": false,
+        "risk_components": {
+            "scene_risk": 0.1,
+            "object_risk": 0.3,
+            "prediction_risk": 0.0,
+            "planning_risk": 0.1,
+            "safety_risk": 0.03,
+            "conflict_risk": 0.0
+        },
+        "highest_risk_object": {
+            "track_id": 12,
+            "class": "traffic light",
+            "confidence": 0.2973,
+            "object_risk": 0.3,
+            "prediction_risk": 0.0,
+            "velocity": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "speed": 0.0,
+            "current_position": [
+                583.77,
+                303.15
+            ]
+        },
+        "object_risks": [
+            {
+                "track_id": 1,
+                "class": "car",
+                "confidence": 0.8913,
+                "object_risk": 0.07,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    837.07,
+                    396.56
+                ]
+            },
+            {
+                "track_id": 2,
+                "class": "car",
+                "confidence": 0.878,
+                "object_risk": 0.02,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    1130.39,
+                    417.52
+                ]
+            },
+            {
+                "track_id": 3,
+                "class": "car",
+                "confidence": 0.8779,
+                "object_risk": 0.17,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    629.24,
+                    390.66
+                ]
+            },
+            {
+                "track_id": 4,
+                "class": "car",
+                "confidence": 0.798,
+                "object_risk": 0.05,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    1191.88,
+                    506.29
+                ]
+            },
+            {
+                "track_id": 5,
+                "class": "car",
+                "confidence": 0.7878,
+                "object_risk": 0.05,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    963.36,
+                    384.8
+                ]
+            },
+            {
+                "track_id": 6,
+                "class": "car",
+                "confidence": 0.7757,
+                "object_risk": 0.15,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    730.12,
+                    381.88
+                ]
+            },
+            {
+                "track_id": 7,
+                "class": "truck",
+                "confidence": 0.6521,
+                "object_risk": 0.05,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    965.7,
+                    332.24
+                ]
+            },
+            {
+                "track_id": 8,
+                "class": "car",
+                "confidence": 0.5247,
+                "object_risk": 0.1,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    242.09,
+                    383.29
+                ]
+            },
+            {
+                "track_id": 9,
+                "class": "traffic light",
+                "confidence": 0.504,
+                "object_risk": 0.25,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    583.15,
+                    303.12
+                ]
+            },
+            {
+                "track_id": 10,
+                "class": "traffic light",
+                "confidence": 0.5011,
+                "object_risk": 0.25,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    648.43,
+                    320.53
+                ]
+            },
+            {
+                "track_id": 11,
+                "class": "traffic light",
+                "confidence": 0.4137,
+                "object_risk": 0.15,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    771.43,
+                    321.77
+                ]
+            },
+            {
+                "track_id": 12,
+                "class": "traffic light",
+                "confidence": 0.2973,
+                "object_risk": 0.3,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    583.77,
+                    303.15
+                ]
+            },
+            {
+                "track_id": 13,
+                "class": "car",
+                "confidence": 0.2849,
+                "object_risk": 0.15,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    1225.9,
+                    363.55
+                ]
+            },
+            {
+                "track_id": 14,
+                "class": "truck",
+                "confidence": 0.2725,
+                "object_risk": 0.25,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    715.62,
+                    349.09
+                ]
+            },
+            {
+                "track_id": 15,
+                "class": "car",
+                "confidence": 0.2679,
+                "object_risk": 0.15,
+                "prediction_risk": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 0.0,
+                "current_position": [
+                    1227.24,
+                    358.71
+                ]
+            }
+        ],
+        "reasons": [
+            "Elevated object-level risk",
+            "Planning agent recommends SLOW"
+        ]
+    },
+    "explanation": {
+        "final_action": "SLOW",
+        "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 9 car, 2 truck, 4 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 11 vehicle(s), 0 vulnerable road user(s), and 4 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. The Confidence-Aware Risk Fusion Agent calculated a normalized risk score of 0.53 (53.0%). The corresponding fused risk level was 'MODERATE'. No predictive trajectory threat contributed to the risk assessment. The Planning and Safety Agents were consistent. Therefore, the final recommended driving action is 'SLOW'.",
+        "object_summary": "9 car, 2 truck, 4 traffic light",
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "moderate",
+        "risk_level": "MODERATE",
+        "risk_score": 0.53,
+        "risk_percentage": 53.0,
+        "planning_action": "SLOW",
+        "safety_decision": "APPROVE",
+        "safety_action": "SLOW",
+        "safety_level": "CAUTION",
+        "agent_conflict": false,
+        "trajectory_threat": false,
+        "risk_breakdown": [
+            "Scene conditions contribute moderately to the risk score.",
+            "Object-level factors contribute to the risk score.",
+            "No predicted trajectory threat was detected.",
+            "The Planning Agent recommends a cautious driving action.",
+            "The Safety Agent indicates a cautionary condition.",
+            "No disagreement exists between the Planning and Safety Agents."
+        ],
+        "risk_reasons": [
+            "Elevated object-level risk",
+            "Planning agent recommends SLOW"
+        ],
+        "trajectory_count": 15
+    },
+    "processing_time": 0.5484240055084229
+}

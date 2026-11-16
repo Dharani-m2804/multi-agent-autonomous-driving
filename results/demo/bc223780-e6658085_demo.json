@@ -1,0 +1,38 @@
+{
+    "dataset": "BDD100K",
+    "split": "validation",
+    "image": "bc223780-e6658085.jpg",
+    "image_path": "F:\\MultiAgent-Autonomous-Driving\\Dataset\\BDD100K_Extracted\\bdd100k\\bdd100k\\images\\100k\\val\\bc223780-e6658085.jpg",
+    "objects_detected": 6,
+    "object_summary": {
+        "traffic light": 3,
+        "car": 1,
+        "traffic sign": 2
+    },
+    "perception_time": 2.3872207999993407,
+    "scene": {
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "low",
+        "vehicle_count": 1,
+        "vulnerable_count": 0,
+        "traffic_control_count": 5,
+        "risk_level": "LOW",
+        "total_objects": 6
+    },
+    "planning": {
+        "action": "GO",
+        "speed": "NORMAL",
+        "priority": "LOW",
+        "reason": "Low-risk roadway detected. Continue with normal driving."
+    },
+    "safety": {
+        "decision": "APPROVE",
+        "final_action": "GO",
+        "safety_level": "NORMAL",
+        "reasons": [
+            "Low-risk scene and planner decision are consistent."
+        ]
+    },
+    "final_action": "GO",
+    "explanation": "The perception system detected 6 object(s). The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated risk level was 'LOW'. The scene contained 1 vehicle(s), 0 vulnerable road user(s), and 5 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: Low-risk roadway detected. Continue with normal driving. The Safety Agent returned 'APPROVE' with safety level 'NORMAL'. Therefore, the final recommended driving action is 'GO'."
+}

@@ -1,0 +1,1001 @@
+image,objects,scene_type,traffic_density,risk_level,vehicle_count,vulnerable_users,traffic_controls,planner_action,safety_decision,safety_level,final_action,processing_time
+b1c66a42-6f7d68ca.jpg,20,high-density roadway,high,MODERATE,20,0,0,SLOW,APPROVE,CAUTION,SLOW,2.635
+b1c81faa-3df17267.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.092
+b1c81faa-c80764c5.jpg,7,sign-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1c9c847-3bda4659.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.051
+b1ca2e5d-84cf9134.jpg,15,traffic-controlled road,low,HIGH,5,8,2,STOP,OVERRIDE,CRITICAL,STOP,0.044
+b1ca8418-84a133a0.jpg,4,traffic-controlled road,low,MODERATE,1,0,3,SLOW,APPROVE,CAUTION,SLOW,0.045
+b1cac6a7-04e33135.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.09
+b1cd1e94-26dd524f.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.044
+b1cd1e94-549d0bfe.jpg,13,sign-controlled road,moderate,HIGH,9,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.045
+b1ceb32e-3f481b43.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.039
+b1ceb32e-51852abe.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1ceb32e-813f84b2.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.04
+b1ceb32e-a106591d.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1cebfb7-284f5117.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.044
+b1d0091f-75824d0d.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.045
+b1d0091f-f2c2d2ae.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1d0a191-03dcecc2.jpg,20,traffic-controlled road,moderate,HIGH,8,9,3,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b1d0a191-06deb55d.jpg,15,road with vulnerable road users,moderate,HIGH,7,8,0,STOP,OVERRIDE,CRITICAL,STOP,0.044
+b1d0a191-28f0e779.jpg,11,sign-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1d0a191-2ed2269e.jpg,8,road with vulnerable road users,moderate,HIGH,7,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.047
+b1d0a191-5490450b.jpg,11,traffic-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.049
+b1d0a191-65deaeef.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.044
+b1d0a191-de8948f6.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1d10d08-5b108225.jpg,12,traffic-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1d10d08-743fd86c.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.041
+b1d10d08-c35503b8.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.045
+b1d10d08-da110fcb.jpg,16,traffic-controlled road,moderate,MODERATE,12,0,4,SLOW,APPROVE,CAUTION,SLOW,0.038
+b1d10d08-ec660956.jpg,5,traffic-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.049
+b1d22449-117aa773.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.04
+b1d22449-15fb948f.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.042
+b1d22ed6-f1cac061.jpg,14,sign-controlled road,moderate,HIGH,12,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.047
+b1d3907b-2278601b.jpg,17,sign-controlled road,moderate,MODERATE,15,0,2,SLOW,APPROVE,CAUTION,SLOW,0.042
+b1d4b62c-60aab822.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.044
+b1d4b62c-89eeb5d3.jpg,5,traffic-controlled road,low,MODERATE,2,0,3,SLOW,APPROVE,CAUTION,SLOW,0.046
+b1d4b62c-d9805029.jpg,26,traffic-controlled road,high,MODERATE,25,0,1,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1d59b1f-a38aec79.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.041
+b1d7b3ac-0bdb47dc.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.039
+b1d7b3ac-2a92e19f.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.043
+b1d7b3ac-36f2d3b7.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1d7b3ac-5744370e.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.045
+b1d7b3ac-5af8623b.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.044
+b1d7b3ac-995f9d8a.jpg,5,road with vulnerable road users,low,HIGH,3,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.048
+b1d7b3ac-9e14f05f.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.039
+b1d7b3ac-afa57f22.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.041
+b1d8735d-eee9f184.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b1d968b9-563405f4.jpg,8,traffic-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b1d968b9-ce42734f.jpg,19,road with vulnerable road users,high,HIGH,18,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.066
+b1d971b4-ac67ca0d.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.05
+b1d9e136-6c94ea3f.jpg,8,road with vulnerable road users,moderate,HIGH,7,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.045
+b1d9e136-9ab25cb3.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1da9c53-0f3d4c5d.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.042
+b1dac7f7-6b2e0382.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.05
+b1db7e22-cfa74dc3.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.042
+b1dce572-c6a8cb5e.jpg,14,traffic-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.077
+b1dd58c1-8b546ba7.jpg,15,road with vulnerable road users,moderate,HIGH,11,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.044
+b1df722f-57d21f3f.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.045
+b1df722f-5bcc3db7.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.038
+b1e0c01d-dd9e6e2f.jpg,7,road with vulnerable road users,moderate,HIGH,6,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.045
+b1e1a7b8-0aec80e8.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.044
+b1e1a7b8-65ec7612.jpg,15,traffic-controlled road,low,MODERATE,4,0,11,SLOW,APPROVE,CAUTION,SLOW,0.048
+b1e1a7b8-a7426a97.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.045
+b1e1a7b8-b397c445.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.045
+b1e2346e-c5f98707.jpg,3,traffic-controlled road,empty,MODERATE,0,0,3,SLOW,APPROVE,CAUTION,SLOW,0.045
+b1e3e9f5-92377424.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.044
+b1e62c91-eca210a9.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.048
+b1e6efc0-2552cc5d.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.038
+b1e88fd2-c1e4fd2b.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.042
+b1e8ad72-c3c79240.jpg,10,sign-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1e9ee0e-67e26f2e.jpg,24,high-density roadway,high,MODERATE,24,0,0,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1ea0ae4-4f770228.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.046
+b1eb9133-5cc75c18.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1ebfc3c-740ec84a.jpg,13,sign-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1ebfc3c-cc9c2bb8.jpg,17,traffic-controlled road,low,HIGH,4,8,5,STOP,OVERRIDE,CRITICAL,STOP,0.042
+b1ee702d-0ae1fc10.jpg,7,sign-controlled road,low,MODERATE,3,0,4,SLOW,APPROVE,CAUTION,SLOW,0.041
+b1ee702d-4a193906.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.043
+b1ee702d-525fcebf.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.045
+b1f022d3-3774de8b.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.046
+b1f022d3-45162c67.jpg,7,traffic-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.041
+b1f0efd9-37a14dda.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.045
+b1f0efd9-e900c6e5.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.041
+b1f20aa0-3401c3bf.jpg,9,traffic-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1f20aa0-50213047.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.042
+b1f20aa0-6ef1db42.jpg,20,high-density roadway,high,MODERATE,20,0,0,SLOW,APPROVE,CAUTION,SLOW,0.04
+b1f25ff6-1ddb7e43.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.038
+b1f4491b-07b32e8c.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1f4491b-09593e90.jpg,8,traffic-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.038
+b1f4491b-16256d7c.jpg,14,traffic-controlled road,moderate,MODERATE,10,0,4,SLOW,APPROVE,CAUTION,SLOW,0.047
+b1f4491b-33824f31.jpg,16,traffic-controlled road,moderate,HIGH,7,7,2,STOP,OVERRIDE,CRITICAL,STOP,0.041
+b1f4491b-846d8cb2.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.043
+b1f4491b-97465266.jpg,7,traffic-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.046
+b1f4491b-9958bd99.jpg,9,traffic-controlled road,low,HIGH,5,2,2,STOP,OVERRIDE,CRITICAL,STOP,0.045
+b1f4491b-bf7d513f.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.046
+b1f4491b-cf446195.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.045
+b1f4491b-d8d1459c.jpg,7,road with vulnerable road users,low,HIGH,5,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.043
+b1f4491b-dd8dfed5.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.047
+b1f62c41-ed0c6521.jpg,4,road with vulnerable road users,low,HIGH,3,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.049
+b1f6c103-5ce1f3c6.jpg,3,sign-controlled road,empty,MODERATE,0,0,3,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1f6c103-8b75ea3e.jpg,12,traffic-controlled road,moderate,MODERATE,8,0,4,SLOW,APPROVE,CAUTION,SLOW,0.043
+b1f6c103-b00e8aad.jpg,12,traffic-controlled road,low,MODERATE,5,0,7,SLOW,APPROVE,CAUTION,SLOW,0.038
+b1f85377-44885085.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.043
+b1fbaab8-68db7df7.jpg,8,traffic-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.063
+b1fbf878-b31a8293.jpg,14,traffic-controlled road,moderate,HIGH,7,3,4,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b1fc95c9-644e3c3f.jpg,8,traffic-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b1fc95c9-cb2882c7.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.08
+b1ff4656-0435391e.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b1ff4656-94ee8536.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.062
+b1ff4656-ebcfeb35.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b200b84e-4a792877.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b200e97a-bf074435.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b20234fd-822029be.jpg,11,road with vulnerable road users,moderate,HIGH,9,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.051
+b202cae2-672e61c5.jpg,14,sign-controlled road,moderate,MODERATE,11,0,3,SLOW,APPROVE,CAUTION,SLOW,0.06
+b202cae2-f46c74a6.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b2036451-aa924fd1.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.065
+b2046bcf-8bc6a044.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b204a5c1-05981158.jpg,6,road with vulnerable road users,low,HIGH,5,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b204a5c1-064b0040.jpg,21,traffic-controlled road,high,MODERATE,20,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b204a5c1-fa3d5b88.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b205eb4d-f84aaa1a.jpg,14,traffic-controlled road,moderate,MODERATE,10,0,4,SLOW,APPROVE,CAUTION,SLOW,0.062
+b2064e61-2beadd45.jpg,18,traffic-controlled road,high,MODERATE,16,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b206a78b-99f405ab.jpg,16,traffic-controlled road,moderate,MODERATE,7,0,9,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2080dc7-f9b98a5f.jpg,17,traffic-controlled road,moderate,MODERATE,15,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b20841f9-cef732d5.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b20b1e63-4d8478a4.jpg,8,sign-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.062
+b20b69d2-64b9cdb8.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b20b69d2-650e674d.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b20b69d2-6e2b9e73.jpg,12,traffic-controlled road,low,MODERATE,1,0,11,SLOW,APPROVE,CAUTION,SLOW,0.053
+b20b69d2-7767e6b6.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b20b69d2-bd242bf0.jpg,13,road with vulnerable road users,moderate,HIGH,11,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b20b69d2-ca16c907.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b20b69d2-e31380a7.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.055
+b20b69d2-ffc1d6af.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b20b9c19-91e01a50.jpg,14,sign-controlled road,moderate,MODERATE,10,0,4,SLOW,APPROVE,CAUTION,SLOW,0.055
+b20d494a-cdebe83e.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.057
+b20e291a-32ac11c1.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b20e291a-6012d836.jpg,28,sign-controlled road,high,MODERATE,25,0,3,SLOW,APPROVE,CAUTION,SLOW,0.063
+b20eae11-149766ce.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b20eae11-18cd8ca2.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b20eae11-6817ba7a.jpg,14,traffic-controlled road,moderate,MODERATE,11,0,3,SLOW,APPROVE,CAUTION,SLOW,0.051
+b20ff95c-b9444127.jpg,6,road with vulnerable road users,low,HIGH,3,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2102d00-5eb86b71.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b2102d00-a8c09be1.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b2131b7b-e58faab7.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.05
+b213e4eb-09c01a17.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b214d1e1-f248c616.jpg,19,traffic-controlled road,moderate,HIGH,6,9,4,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b21547c1-73e457f8.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b21547c1-796757ac.jpg,13,traffic-controlled road,moderate,MODERATE,8,0,5,SLOW,APPROVE,CAUTION,SLOW,0.049
+b2156f8e-72e1547c.jpg,2,traffic-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b215943a-10e44587.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b216243d-55963da2.jpg,19,sign-controlled road,high,MODERATE,17,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b216243d-ad4306b9.jpg,14,road with vulnerable road users,moderate,HIGH,10,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b2169b74-fa197951.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b21742c2-0e7a2b57.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.083
+b21742c2-18d3463a.jpg,22,sign-controlled road,moderate,HIGH,7,12,3,STOP,OVERRIDE,CRITICAL,STOP,0.064
+b2194b15-1825056a.jpg,7,traffic-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b21ac8b3-9b9cb45a.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b21bfb83-ea32f716.jpg,8,traffic-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b21c68e6-65674a17.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b21c86ac-0dc77d82.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.066
+b21c86ac-2eb7ba16.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.05
+b21c86ac-71205084.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.052
+b21d5efb-5e2cd743.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2208b0f-2796a692.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.061
+b222c329-5dc8dbf7.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b229488e-e4714bb7.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b22a4d9f-48b2e986.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b22a4d9f-73cc8810.jpg,12,sign-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b22e02cd-6af68e18.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.054
+b22f174d-a19c875e.jpg,13,sign-controlled road,moderate,HIGH,11,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.05
+b22f385b-5d7e5202.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b230132b-ff8f2719.jpg,11,traffic-controlled road,low,MODERATE,4,0,7,SLOW,APPROVE,CAUTION,SLOW,0.054
+b230a7b2-c881c382.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b231a630-c4522992.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b232c7c9-d251d9ee.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2331b83-648e56ca.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2331b83-a28e6b57.jpg,14,road with vulnerable road users,moderate,HIGH,13,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b23493b1-3200de1c.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.058
+b237db93-fab44bf2.jpg,10,traffic-controlled road,moderate,MODERATE,6,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b23a79d1-43dfeecd.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.051
+b23a79d1-e434acaa.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b23adb0d-72704b27.jpg,7,sign-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b23adb0d-8a7aaced.jpg,9,traffic-controlled road,low,MODERATE,4,0,5,SLOW,APPROVE,CAUTION,SLOW,0.056
+b23b2649-1a78948d.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.066
+b23b2649-6af03cd5.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b23b2649-8349d2a1.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b23bb45f-ddeea1d8.jpg,4,sign-controlled road,low,HIGH,2,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b23c9e00-5506ddfb.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b23c9e00-b425de1b.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.049
+b23d2079-0c019d8e.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b23f7012-32d284ce.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b23f7012-fab06dac.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b23fe89b-c704fe97.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b24071b8-b3ee1196.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b2408e45-984ba5aa.jpg,15,sign-controlled road,moderate,MODERATE,11,0,4,SLOW,APPROVE,CAUTION,SLOW,0.054
+b242929f-3051abca.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b242f6b2-0033bdfb.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b242f6b2-99d2f2c1.jpg,9,traffic-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.066
+b242f6b2-eaa39345.jpg,8,road with vulnerable road users,low,HIGH,3,5,0,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b242f6b2-f5da110f.jpg,24,traffic-controlled road,low,HIGH,3,14,7,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b24380ab-63272e5a.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.053
+b24380ab-6dbeb908.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b24380ab-855e9c00.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b24380ab-c07680d1.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.051
+b2443c9d-8cc3991f.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b245b306-ca3dca4e.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b245e52e-0a0e4e69.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.056
+b245e52e-aaeeb959.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b246c8e8-3dd42e6c.jpg,13,traffic-controlled road,low,MODERATE,4,0,9,SLOW,APPROVE,CAUTION,SLOW,0.058
+b246c8e8-4dd36bfc.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.05
+b246c8e8-ecce1321.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.062
+b24702e3-0456c83c.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b24702e3-900f61ea.jpg,9,traffic-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b24702e3-e6f33768.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b24702e3-f56e0731.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.061
+b24702e3-fe617f57.jpg,20,traffic-controlled road,high,MODERATE,17,0,3,SLOW,APPROVE,CAUTION,SLOW,0.065
+b248306f-a5089e94.jpg,11,traffic-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2490dcb-7469cbe8.jpg,19,traffic-controlled road,moderate,HIGH,9,3,7,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b249e7f2-92d2efad.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b249e7f2-d619bd69.jpg,2,traffic-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.052
+b24b3585-221ac8ac.jpg,12,sign-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b24bdca1-e4f0c558.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b24c9ee6-e43a6e8b.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b24ca67a-594d7d3c.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b24d283f-33783d1b.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b24f03f7-ff66eaca.jpg,12,traffic-controlled road,low,MODERATE,4,0,8,SLOW,APPROVE,CAUTION,SLOW,0.054
+b24f7455-e8c55d6a.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b2505382-1423f56a.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2505382-272e7823.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2505382-2905b23c.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.061
+b2505382-549785d3.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2505382-de5238f0.jpg,11,traffic-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b250fb0c-01a1b8d3.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b251064f-30002542.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b251064f-4696b75e.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.056
+b251064f-5f6b663e.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b251064f-8d92db81.jpg,26,traffic-controlled road,moderate,HIGH,10,4,12,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b251064f-e7a165fd.jpg,18,traffic-controlled road,moderate,MODERATE,14,0,4,SLOW,APPROVE,CAUTION,SLOW,0.064
+b251b746-00138418.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b255cd6c-0bdf0ac7.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.06
+b255cd6c-2f889586.jpg,6,traffic-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.06
+b255cd6c-5ccba454.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.056
+b255cd6c-6502a28c.jpg,10,traffic-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b255cd6c-82c804d4.jpg,8,sign-controlled road,moderate,HIGH,6,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b255cd6c-bc3cbb18.jpg,9,traffic-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b255cd6c-e5f99451.jpg,11,sign-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.06
+b255cd6c-f2f28aff.jpg,16,sign-controlled road,moderate,HIGH,6,9,1,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b255cd6c-fb594dcb.jpg,8,traffic-controlled road,low,MODERATE,4,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b2576c8c-2924c365.jpg,6,sign-controlled road,low,HIGH,3,2,1,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b2576c8c-2de20b8a.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.054
+b257f482-cf55d35c.jpg,5,sign-controlled road,low,HIGH,3,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b258a38b-0126cc8c.jpg,9,traffic-controlled road,low,HIGH,1,7,1,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b258d359-49a3ad31.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.101
+b258d359-db99eff1.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.06
+b259c5e1-cda39ef9.jpg,5,road with vulnerable road users,low,HIGH,4,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b25aac57-705d50ad.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.058
+b25ae6c0-311e72c2.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b25ae6c0-fb9fea6a.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b25c1103-5da4b435.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.064
+b25c51f5-e9dba941.jpg,11,sign-controlled road,moderate,MODERATE,7,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b25fb716-78d8d49b.jpg,13,traffic-controlled road,moderate,MODERATE,9,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b25fd5d3-fa4bfca0.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b25fdb41-4644e3f7.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b262f576-b0373824.jpg,11,sign-controlled road,moderate,HIGH,8,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b26309ce-447c0ac7.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b26309ce-fc963b47.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.054
+b26327fe-3ac19999.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b26331b9-102f5d9a.jpg,2,sign-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2638d82-062aa1de.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.054
+b263f57d-1ccf6e51.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.058
+b2648a7f-42f72f67.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.053
+b265b9cf-2d517da6.jpg,12,traffic-controlled road,moderate,MODERATE,8,0,4,SLOW,APPROVE,CAUTION,SLOW,0.061
+b26610ce-083c3bd1.jpg,14,traffic-controlled road,moderate,MODERATE,12,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b266429a-83757042.jpg,8,traffic-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.057
+b266429a-ac0c4ed3.jpg,12,traffic-controlled road,moderate,HIGH,8,2,2,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b266db29-12bf52fa.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b266db29-29fa8335.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b266db29-403143cc.jpg,16,traffic-controlled road,low,HIGH,5,8,3,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b266db29-4d22b355.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b266db29-c518f15d.jpg,16,sign-controlled road,moderate,MODERATE,13,0,3,SLOW,APPROVE,CAUTION,SLOW,0.053
+b266db29-da0abce7.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2675b13-d04e4a76.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b268bb58-5ead8a56.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2694461-db4f4470.jpg,4,traffic-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b26aafd1-1bc4dccc.jpg,10,road with vulnerable road users,moderate,HIGH,9,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.062
+b26aafd1-513824d4.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.057
+b26ba07a-1c7593b1.jpg,6,traffic-controlled road,low,MODERATE,1,0,5,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26ba07a-203e440c.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b26ba07a-2b68a502.jpg,22,sign-controlled road,high,MODERATE,21,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b26ba07a-38f78442.jpg,4,traffic-controlled road,low,MODERATE,1,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26ba07a-c7bcbe2d.jpg,12,sign-controlled road,low,MODERATE,4,0,8,SLOW,APPROVE,CAUTION,SLOW,0.058
+b26ba07a-da78f324.jpg,10,traffic-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b26ba07a-e4ca935c.jpg,3,sign-controlled road,empty,MODERATE,0,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26ba07a-f781b661.jpg,9,traffic-controlled road,low,MODERATE,3,0,6,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26cfcdc-10346684.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b26cfcdc-2e290c42.jpg,11,traffic-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.06
+b26cfcdc-7b00747d.jpg,12,traffic-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b26cfcdc-eb092da8.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26dd913-2888cbfd.jpg,10,traffic-controlled road,moderate,HIGH,8,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b26dddb5-28e4a05f.jpg,7,traffic-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26f7271-d906ee87.jpg,6,sign-controlled road,low,MODERATE,2,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b26f8762-61cfb033.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b26f9b1e-09c56a3c.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.057
+b26f9b1e-3e172ced.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.047
+b27098c3-0db780d5.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b27098c3-915a9986.jpg,21,high-density roadway,high,MODERATE,21,0,0,SLOW,APPROVE,CAUTION,SLOW,0.056
+b27098c3-c443b6e3.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b27098c3-dedf92b2.jpg,6,traffic-controlled road,low,HIGH,1,2,3,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b270d8e4-0f565398.jpg,10,sign-controlled road,moderate,HIGH,8,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b27127df-eac9b95e.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.07
+b2714f5d-07bf604c.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2714f5d-5bc98e55.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2715214-13e3dd85.jpg,17,sign-controlled road,moderate,MODERATE,14,0,3,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2715214-d38332ea.jpg,18,traffic-controlled road,high,MODERATE,16,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b27369f3-9b9598f4.jpg,7,traffic-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.062
+b27369f3-dd3c0b46.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b2743b5d-e2d585be.jpg,16,sign-controlled road,moderate,MODERATE,14,0,2,SLOW,APPROVE,CAUTION,SLOW,0.06
+b2752cd6-12ba5588.jpg,6,sign-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b275c028-6a0665cb.jpg,6,traffic-controlled road,low,MODERATE,2,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b27688b6-1af27060.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.057
+b27688b6-cd521517.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.056
+b2778280-4179c4af.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b277a772-08d8d7ad.jpg,10,sign-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b277a772-715e949c.jpg,17,traffic-controlled road,high,MODERATE,16,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b277a772-848f75a9.jpg,21,traffic-controlled road,high,MODERATE,19,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b277a772-87c10d5c.jpg,12,sign-controlled road,moderate,MODERATE,9,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b2794401-ba7d3c05.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.057
+b279bc06-3c8aeb90.jpg,19,sign-controlled road,moderate,HIGH,10,6,3,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b279bc06-4fa57251.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b279bc06-b7bc42a9.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.058
+b27b0cd9-f184d9a3.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b27cd403-d7616bfa.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b27cd403-f2d087cc.jpg,27,high-density roadway,high,MODERATE,27,0,0,SLOW,APPROVE,CAUTION,SLOW,0.053
+b27cde22-56abd0e1.jpg,4,traffic-controlled road,low,MODERATE,2,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b27d5dcb-5bdec286.jpg,13,road with vulnerable road users,moderate,HIGH,11,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b27d5dcb-856c0b43.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.065
+b27d5dcb-9230790c.jpg,17,sign-controlled road,high,MODERATE,16,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b27e8b69-c00092ae.jpg,9,sign-controlled road,moderate,MODERATE,6,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b27fdbad-ab895d86.jpg,2,sign-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b27fdbad-ae939e31.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.049
+b280c9c1-4340305f.jpg,7,road with vulnerable road users,moderate,HIGH,6,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.065
+b280c9c1-a75d23e5.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b2828509-133b042d.jpg,4,traffic-controlled road,low,MODERATE,2,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2828509-682cd3b2.jpg,11,sign-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.05
+b2828509-8e8fa55f.jpg,9,traffic-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b284c0e8-85fbc42a.jpg,26,traffic-controlled road,moderate,HIGH,6,17,3,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b284c0e8-b813f3cf.jpg,7,road with vulnerable road users,low,HIGH,5,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b285698b-ff1293ce.jpg,18,traffic-controlled road,moderate,MODERATE,10,0,8,SLOW,APPROVE,CAUTION,SLOW,0.045
+b2860d72-0b43e851.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.054
+b289f2e8-cec8700d.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b28aac6c-9f1b99cb.jpg,13,traffic-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b28cb5d3-2cf728ac.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b28cb5d3-9ff4ab4a.jpg,6,traffic-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.087
+b28cb5d3-c4758dfd.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b28cb5d3-f800ecd2.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.068
+b28cfc9b-224431ab.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.065
+b28ec521-69495052.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.048
+b28ec521-8266e1a4.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.062
+b28ec521-834a964c.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b28ec521-898e11bd.jpg,7,sign-controlled road,low,MODERATE,3,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b28f288b-784f7606.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b28fc734-5add25db.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b29026f0-d5a5ee8c.jpg,7,sign-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.049
+b291cfd6-a46efbcc.jpg,14,road with vulnerable road users,empty,HIGH,0,14,0,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b291cfd6-a6275049.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b291cfd6-ff98ba56.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b29273b2-339a1500.jpg,19,road with vulnerable road users,moderate,HIGH,12,7,0,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2932832-a2c8f6ef.jpg,22,sign-controlled road,moderate,HIGH,13,8,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2932832-df9384eb.jpg,14,sign-controlled road,moderate,HIGH,8,3,3,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b2933acb-1e0c16cc.jpg,7,traffic-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2933acb-e890758f.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b29377e0-83e8340a.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2939bf0-221e1dfb.jpg,11,traffic-controlled road,moderate,MODERATE,6,0,5,SLOW,APPROVE,CAUTION,SLOW,0.051
+b294386c-24ddd0c3.jpg,13,road with vulnerable road users,moderate,HIGH,6,7,0,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b29511e5-0e7c7013.jpg,12,traffic-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2965b06-88a1da19.jpg,5,traffic-controlled road,low,MODERATE,2,0,3,SLOW,APPROVE,CAUTION,SLOW,0.051
+b29806ee-7194648d.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b29806ee-ac06730f.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.055
+b29806ee-e89a39a6.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b29c2372-b53a797c.jpg,8,sign-controlled road,low,HIGH,5,2,1,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b29c5efd-754ba560.jpg,8,sign-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b29f09ea-911177ce.jpg,20,traffic-controlled road,high,HIGH,18,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b29f09ea-ecd5304b.jpg,11,traffic-controlled road,moderate,MODERATE,6,0,5,SLOW,APPROVE,CAUTION,SLOW,0.053
+b29f7159-219cf764.jpg,8,traffic-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b29f9214-4846c10c.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2a0648b-d8e126bc.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2a0dbe8-85f1894e.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.053
+b2a1e013-638d6e4d.jpg,15,traffic-controlled road,moderate,MODERATE,13,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2a1e172-a969db88.jpg,6,traffic-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2a46c1e-87aac2ec.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b2a4738f-1c4a1373.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2a4bc4d-6f7c1727.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.05
+b2a4bc4d-b251ccb1.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.052
+b2a5baf7-58519386.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2a60634-0817a6eb.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2a60634-40847419.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b2a60634-6e9f96fe.jpg,4,traffic-controlled road,low,MODERATE,1,0,3,SLOW,APPROVE,CAUTION,SLOW,0.052
+b2a60634-ad36f179.jpg,20,high-density roadway,high,MODERATE,20,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2a8e8b4-50058f09.jpg,13,sign-controlled road,moderate,HIGH,8,3,2,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b2a8e8b4-a4e93829.jpg,6,sign-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2a99ee3-5abca703.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.056
+b2a9d547-f7f6fa92.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.065
+b2ae0446-4b0bfda7.jpg,15,sign-controlled road,moderate,MODERATE,13,0,2,SLOW,APPROVE,CAUTION,SLOW,0.051
+b2ae0446-f456c162.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.056
+b2ae4fc5-3abd5802.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.06
+b2ae4fc5-d1082ddf.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2aefccb-24d289a9.jpg,8,traffic-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.052
+b2afce7f-0cb9967a.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.065
+b2b03a01-a60e895f.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b2b2f563-ec318c61.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.053
+b2b32394-e46669cb.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2b70230-bad4ff6e.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b2b70230-c43553a9.jpg,11,traffic-controlled road,moderate,MODERATE,7,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2b74321-f6578001.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b2bc4efb-a184131d.jpg,25,sign-controlled road,high,MODERATE,24,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2bceb54-0b1f3332.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2bceb54-4d3cc92c.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2bdb7b6-041bebc9.jpg,7,sign-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2bdb7b6-137acb11.jpg,19,traffic-controlled road,moderate,HIGH,8,8,3,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b2bdb7b6-3e75222e.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.049
+b2bdb7b6-602437cb.jpg,14,sign-controlled road,moderate,MODERATE,7,0,7,SLOW,APPROVE,CAUTION,SLOW,0.051
+b2bdb7b6-d34fab57.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2bdc7e5-b4ebc5bd.jpg,7,traffic-controlled road,low,MODERATE,2,0,5,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2be7200-b6f7fe0a.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2bee3e1-80c787bd.jpg,7,traffic-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2bee3e1-915eb541.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2bf0e03-a07f0a81.jpg,13,traffic-controlled road,moderate,MODERATE,10,0,3,SLOW,APPROVE,CAUTION,SLOW,0.05
+b2bf0e03-a3921cd6.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b2c0e5c1-9666ba7e.jpg,19,sign-controlled road,high,MODERATE,16,0,3,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2c23864-810e4e1d.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2c2f563-02143de0.jpg,17,sign-controlled road,moderate,HIGH,13,3,1,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b2c5110e-09e459e9.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2c5110e-ef7e4997.jpg,7,traffic-controlled road,low,MODERATE,3,0,4,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2c542e3-02f579a6.jpg,18,traffic-controlled road,moderate,MODERATE,15,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2c7d048-fdd059eb.jpg,5,road with vulnerable road users,low,HIGH,4,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b2c7ebc4-731ea908.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.049
+b2c88d3b-1c1ad881.jpg,12,sign-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.049
+b2c9b221-d447dcc3.jpg,16,traffic-controlled road,moderate,MODERATE,8,0,8,SLOW,APPROVE,CAUTION,SLOW,0.06
+b2cac490-b27b82da.jpg,10,sign-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.048
+b2cbf6d8-732b47be.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b2cce432-e17e840e.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2cd33bd-a5043d29.jpg,15,sign-controlled road,moderate,MODERATE,11,0,4,SLOW,APPROVE,CAUTION,SLOW,0.047
+b2cda443-f7cb5ccf.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.053
+b2cf78ec-6043f571.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2d22b2f-8302eb61.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b2d22b2f-91d0af18.jpg,6,sign-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2d3510a-659ae4de.jpg,14,traffic-controlled road,moderate,MODERATE,11,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2d49c0c-e888f874.jpg,18,high-density roadway,high,MODERATE,18,0,0,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2d4c878-2267ca6d.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.055
+b2d502aa-64d3e228.jpg,9,sign-controlled road,moderate,HIGH,6,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b2d502aa-ef17ffbd.jpg,9,traffic-controlled road,low,HIGH,4,1,4,STOP,OVERRIDE,CRITICAL,STOP,0.05
+b2d502aa-f0b28e3e.jpg,5,road with vulnerable road users,low,HIGH,4,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b2d502aa-f8382905.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.081
+b2d502aa-f9141409.jpg,24,sign-controlled road,moderate,HIGH,6,17,1,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b2d83b7b-9627ff87.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2d8704e-66d10551.jpg,13,traffic-controlled road,low,HIGH,1,10,2,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b2d8704e-9e7dddd6.jpg,7,traffic-controlled road,low,HIGH,3,2,2,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2d90c73-32ae0488.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.049
+b2d9b817-9a617024.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2da7e9c-6fe28d5e.jpg,20,road with vulnerable road users,high,HIGH,19,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b2daf29d-6198754f.jpg,33,traffic-controlled road,moderate,HIGH,9,19,5,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b2db41a2-721e0f4e.jpg,9,sign-controlled road,moderate,MODERATE,6,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2dbb793-305e0fc5.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2dbb793-9f0b2bec.jpg,10,sign-controlled road,moderate,HIGH,8,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b2dc7ea5-4a031fdd.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2ddae9c-9aafceae.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2dde0d9-1303a9ef.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.052
+b2de6f59-9f74dea1.jpg,8,sign-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2de938e-84eab379.jpg,10,traffic-controlled road,low,HIGH,3,2,5,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b2de938e-a8430554.jpg,21,traffic-controlled road,high,MODERATE,19,0,2,SLOW,APPROVE,CAUTION,SLOW,0.052
+b2e2126b-0512426c.jpg,20,high-density roadway,high,MODERATE,20,0,0,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2e2b2be-4142962b.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2e2f4ed-6ba045d0.jpg,13,sign-controlled road,moderate,MODERATE,10,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2e431b6-332c438d.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2e54795-0a58624f.jpg,26,sign-controlled road,moderate,HIGH,11,14,1,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b2e54795-0dc285dd.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2e54795-349f005b.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b2e54795-601d2d78.jpg,7,traffic-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2e54795-698ce97f.jpg,11,traffic-controlled road,moderate,HIGH,7,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b2e54795-6d4ef5f9.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.046
+b2e54795-d8c2ba6d.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.056
+b2e54795-db1f3bad.jpg,10,traffic-controlled road,low,HIGH,3,5,2,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b2e63097-51c16783.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b2e73518-547798ef.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.05
+b2e96aa8-3624f23d.jpg,4,road with vulnerable road users,low,HIGH,3,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2e96aa8-4d92cdf0.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b2ea3465-78dea25f.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.055
+b2ec68ce-d345784e.jpg,9,traffic-controlled road,low,HIGH,4,3,2,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2ed13f9-01b4dd4f.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b2edfbf5-544c4e6e.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b2edfbf5-e0fc7810.jpg,6,sign-controlled road,low,HIGH,4,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.051
+b2eed8fa-2694b15d.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b2eed8fa-cf59a253.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.054
+b2efc911-2ad925b4.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b2f3d83a-1effdb49.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2f48fc3-0b8ff39a.jpg,25,road with vulnerable road users,low,HIGH,4,21,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b2f48fc3-eda0e217.jpg,13,traffic-controlled road,moderate,HIGH,9,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b2f48fc3-f0ddacf0.jpg,12,sign-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b2f4a409-36a7d7c9.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b2f4a409-5adcc4f0.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b2f4a409-5ddff11a.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.056
+b2f4a409-80dacf25.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.054
+b2f4ebb7-ceaa12dc.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b2f68bad-aa8f35d1.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b2f6cc51-462c2887.jpg,16,sign-controlled road,moderate,MODERATE,12,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b2f9cc9e-809f5cae.jpg,7,traffic-controlled road,low,MODERATE,3,0,4,SLOW,APPROVE,CAUTION,SLOW,0.054
+b2fa3e5f-8c4b06d0.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b2fbc1aa-b6180041.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b2fbf86d-d5de82a4.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b2fc6d24-0af7cdca.jpg,11,sign-controlled road,moderate,MODERATE,6,0,5,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2fc7cb5-1635d64b.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b2fe5d69-f31d4c9b.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b2fed216-2e5c452d.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b2ff6aba-fa4ac7d7.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b3039ada-2ef2a725.jpg,4,sign-controlled road,empty,MODERATE,0,0,4,SLOW,APPROVE,CAUTION,SLOW,0.065
+b3048201-d86d9cd8.jpg,10,road with vulnerable road users,moderate,HIGH,6,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.049
+b305fc0b-ec8916d5.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3060c96-d2391b61.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b3064012-5a01e51a.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b306fb3f-178fca4e.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b306fb3f-3118e8b6.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b306fb3f-f02e46cc.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b3079ec6-df7b2d92.jpg,6,sign-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3091a27-aa7841b5.jpg,11,sign-controlled road,low,HIGH,4,6,1,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b30af183-3029b316.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b30af183-e9209104.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b30b460d-0e26bd8a.jpg,7,traffic-controlled road,low,HIGH,4,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.049
+b30b460d-73d12a29.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b30b460d-7a788684.jpg,6,traffic-controlled road,low,MODERATE,1,0,5,SLOW,APPROVE,CAUTION,SLOW,0.057
+b30b460d-9829fd26.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.062
+b30b460d-f081f92b.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b30ba07c-6692a0e3.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b310be3f-c5d5e18c.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3110036-a32dc26e.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3121071-195ffbf7.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.045
+b3121071-3dfa9124.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3121071-461523a5.jpg,10,sign-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3121071-581b2755.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3121071-6b1e5be7.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3121071-afc8cca5.jpg,7,sign-controlled road,low,HIGH,3,3,1,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b3121071-b9d7694a.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.053
+b3121071-c0fd88c4.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b3121071-cac49b3a.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b312dcb5-3c956847.jpg,11,sign-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b312dcb5-82c0d608.jpg,15,traffic-controlled road,moderate,MODERATE,10,0,5,SLOW,APPROVE,CAUTION,SLOW,0.054
+b312dcb5-ab4b0e08.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b312dcb5-fbd7070b.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.053
+b313a4dc-217f1233.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3154d05-86ce5ff2.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3154d05-8bc595ba.jpg,22,traffic-controlled road,high,HIGH,17,1,4,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b3158519-23c9c58d.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3158519-6afea489.jpg,4,traffic-controlled road,low,MODERATE,2,0,2,SLOW,APPROVE,CAUTION,SLOW,0.051
+b3159650-0d7fbee8.jpg,14,traffic-controlled road,low,HIGH,4,7,3,STOP,OVERRIDE,CRITICAL,STOP,0.116
+b3159650-1ba75f9b.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b315fa95-4aa651f8.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b319b67e-b43ffc33.jpg,2,road with vulnerable road users,low,HIGH,1,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b31c98f7-a342fff6.jpg,18,traffic-controlled road,moderate,MODERATE,14,0,4,SLOW,APPROVE,CAUTION,SLOW,0.06
+b31cbddb-e2d8873f.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b321c6b6-ab603d42.jpg,7,traffic-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3223c85-fccaf29d.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b322412a-58073611.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b322412a-b47af37f.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3248383-f66bbcc1.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b325fe35-b59e4e91.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.057
+b32661a1-57c937fe.jpg,4,traffic-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b329fe7d-f06455d3.jpg,14,traffic-controlled road,moderate,HIGH,11,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b32a9f8b-2b3d9894.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.063
+b32f48c8-410503d5.jpg,10,sign-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b331b06b-83fd459b.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b3321962-e23b25e3.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.062
+b3329255-4a5988f8.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.062
+b3329255-76b9bb88.jpg,22,high-density roadway,high,MODERATE,22,0,0,SLOW,APPROVE,CAUTION,SLOW,0.065
+b332df78-28a61de0.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.057
+b332df78-6765dddc.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b332df78-76e11eff.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b332df78-970364e2.jpg,15,traffic-controlled road,moderate,MODERATE,9,0,6,SLOW,APPROVE,CAUTION,SLOW,0.06
+b332df78-d6228140.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b332df78-d6c7dff7.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b3339cd5-06f84bb3.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b3343231-8fe3f2e2.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b334b56d-1dd4b8ad.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.052
+b334b56d-2ce33cd7.jpg,17,road with vulnerable road users,moderate,HIGH,13,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b334b56d-8296ef57.jpg,8,traffic-controlled road,low,MODERATE,4,0,4,SLOW,APPROVE,CAUTION,SLOW,0.054
+b334b56d-b82e26b5.jpg,24,traffic-controlled road,high,MODERATE,22,0,2,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3363496-032f16bf.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.064
+b3363496-9d8e32e7.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.066
+b336bdb9-99780d3c.jpg,1,traffic-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b336bdb9-ed5d2cc3.jpg,13,traffic-controlled road,moderate,MODERATE,9,0,4,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3378e5e-9b684546.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3378e5e-b7593301.jpg,16,traffic-controlled road,moderate,MODERATE,11,0,5,SLOW,APPROVE,CAUTION,SLOW,0.049
+b3378e5e-e0df1ef5.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.054
+b3386c15-1c922cea.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b338efff-595690ba.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.053
+b33a7e88-bc0eabcf.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b33ced12-423ec0dc.jpg,9,sign-controlled road,low,MODERATE,4,0,5,SLOW,APPROVE,CAUTION,SLOW,0.055
+b33ced12-5caa9205.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b33ced12-c53391e6.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b33ea6cb-3464fb13.jpg,18,traffic-controlled road,moderate,HIGH,12,5,1,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b33ea6cb-8ef8b9c4.jpg,17,traffic-controlled road,low,HIGH,4,9,4,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b33ea6cb-ddf24803.jpg,15,traffic-controlled road,moderate,HIGH,9,4,2,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b33ec9f6-61139b0d.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3422c91-f0c36ed7.jpg,14,traffic-controlled road,moderate,HIGH,8,2,4,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b3432539-8f9fc466.jpg,8,traffic-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3433dec-e7a93351.jpg,12,traffic-controlled road,moderate,MODERATE,7,0,5,SLOW,APPROVE,CAUTION,SLOW,0.054
+b344266e-2e034c1e.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b3450139-9dcaced8.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b3450498-dbbb787e.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3456910-6136f90e.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3456910-cf5fb475.jpg,2,sign-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3467777-44b644dd.jpg,16,traffic-controlled road,moderate,HIGH,9,1,6,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b3479da9-2d5165c5.jpg,9,sign-controlled road,low,HIGH,5,2,2,STOP,OVERRIDE,CRITICAL,STOP,0.062
+b3488ceb-84e6ade1.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3497248-54bbe9be.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b34b1b88-0f326921.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.056
+b34b1b88-5bfe3b85.jpg,3,traffic-controlled road,low,MODERATE,1,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b34e373f-fb594a99.jpg,6,sign-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b350afdd-9c872c22.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.056
+b352b7f5-276129f2.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b352b7f5-c17c1c72.jpg,2,traffic-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b355880f-7cb7ed1e.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.053
+b355880f-9131b077.jpg,10,sign-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3560f77-2bb7f40d.jpg,14,traffic-controlled road,moderate,MODERATE,12,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b3563bcf-1962e18d.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b3565dc3-9d685e22.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3566b0e-f8e7b731.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b3599e04-174421e4.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3599e04-2aa7d131.jpg,14,traffic-controlled road,moderate,MODERATE,11,0,3,SLOW,APPROVE,CAUTION,SLOW,0.048
+b3599e04-6f80b3b7.jpg,11,traffic-controlled road,low,HIGH,5,1,5,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b35a415a-02526f57.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.048
+b35c1016-4e29ef43.jpg,10,traffic-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b35c1016-5a7c77ee.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.058
+b35c8e3d-439b1b23.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b35c8e3d-bc2c104b.jpg,8,traffic-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b35c8e3d-f985138a.jpg,8,sign-controlled road,low,HIGH,4,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.048
+b35cfd7c-2d625033.jpg,10,sign-controlled road,moderate,MODERATE,6,0,4,SLOW,APPROVE,CAUTION,SLOW,0.056
+b35cfd7c-33d93645.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.046
+b35dac08-031e3f6f.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.085
+b35dac08-396cde53.jpg,15,traffic-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b35dac08-a80be8c5.jpg,3,road with vulnerable road users,low,HIGH,1,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b35f4a74-bd3dd74f.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b362130a-d4f3a32a.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.064
+b364b881-5dd3ec28.jpg,8,traffic-controlled road,low,HIGH,4,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b366921d-956d220b.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b36710b9-7f5e88a3.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3674f80-8070d692.jpg,14,traffic-controlled road,low,HIGH,5,5,4,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b3683422-cce330a8.jpg,9,traffic-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b368ee71-aba6eeef.jpg,14,traffic-controlled road,moderate,MODERATE,12,0,2,SLOW,APPROVE,CAUTION,SLOW,0.05
+b368ee71-c63152ff.jpg,18,high-density roadway,high,MODERATE,18,0,0,SLOW,APPROVE,CAUTION,SLOW,0.064
+b368ee71-cf27b7fa.jpg,10,road with vulnerable road users,moderate,HIGH,9,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b368ee71-e2f04304.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b36a5c73-437be32a.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.059
+b36a5c73-64eacfbf.jpg,12,sign-controlled road,moderate,HIGH,7,1,4,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b36a5c73-7985c3ec.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.085
+b36a5c73-cf70561a.jpg,7,sign-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.061
+b36d14ea-eed9255b.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b36de7af-08e5967a.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b36de7af-887696f9.jpg,21,road with vulnerable road users,low,HIGH,4,17,0,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b36de7af-ca137216.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b36e0178-0f46bca5.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.055
+b36e0178-2037ca44.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b36fcdfe-fd6585e0.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b3709948-6e8ef33d.jpg,4,traffic-controlled road,empty,MODERATE,0,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b371451e-7caf934b.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.048
+b371dc0e-a5f4365f.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b37385bd-9d5b76d4.jpg,19,traffic-controlled road,moderate,MODERATE,9,0,10,SLOW,APPROVE,CAUTION,SLOW,0.057
+b37693d0-cd9bdf88.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b376c5c2-07a93591.jpg,11,traffic-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3770858-ea33d0dc.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.063
+b3770858-fa8c241b.jpg,9,traffic-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b378e452-3aa3d11d.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b378e452-c639ce0f.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.05
+b37b0528-92d07297.jpg,9,sign-controlled road,low,MODERATE,5,0,4,SLOW,APPROVE,CAUTION,SLOW,0.06
+b37b9cf2-9d52b009.jpg,11,traffic-controlled road,low,HIGH,3,6,2,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b37c1ca4-561ffad3.jpg,10,sign-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.057
+b37c2955-5f0aef70.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b37c2955-66532a77.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b37c5be2-b9164b91.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b37c86c4-53f2f54c.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b37cacf7-0d3ce003.jpg,12,traffic-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.051
+b37d75bd-e971140f.jpg,11,road with vulnerable road users,moderate,HIGH,9,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b37dfad0-708bd5bb.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.054
+b37e9cc3-cf8111d8.jpg,12,road with vulnerable road users,moderate,HIGH,8,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.062
+b37f2b89-44772e64.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b37fcc2f-fa9beaf4.jpg,10,traffic-controlled road,moderate,MODERATE,7,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b380ae2f-afd868dc.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.057
+b3810b68-42b78db3.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3815e24-b9565680.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3823cab-48611ba2.jpg,5,traffic-controlled road,empty,MODERATE,0,0,5,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3823cab-b88da702.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.055
+b3826400-c03b5432.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b3826fd8-774c2e0a.jpg,13,road with vulnerable road users,moderate,HIGH,9,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b3841888-101ea0f3.jpg,15,sign-controlled road,moderate,MODERATE,8,0,7,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3853f81-272f6c37.jpg,7,sign-controlled road,low,HIGH,3,1,3,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b38580a1-f26eb052.jpg,11,sign-controlled road,moderate,HIGH,9,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b385ecb1-7f38178b.jpg,7,traffic-controlled road,low,MODERATE,2,0,5,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3865788-92f46f80.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b386d34e-a6a9ea07.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b3875c8d-cc4081eb.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b388f9b2-55dbd56a.jpg,17,sign-controlled road,low,MODERATE,5,0,12,SLOW,APPROVE,CAUTION,SLOW,0.053
+b388f9b2-a91718d0.jpg,4,sign-controlled road,low,MODERATE,2,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3899bec-df46f67b.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.066
+b38b2b6a-77f9d5e5.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.054
+b38b2b6a-cb374ce8.jpg,4,sign-controlled road,low,MODERATE,1,0,3,SLOW,APPROVE,CAUTION,SLOW,0.05
+b38b4f98-0e8820b0.jpg,16,traffic-controlled road,moderate,HIGH,9,3,4,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b38b8783-9cc1ad04.jpg,7,road with vulnerable road users,low,HIGH,4,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b38e631d-e2d95e18.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b38f59d4-58f1cff8.jpg,7,traffic-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b38f59d4-8dfeca9f.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b38fb69e-5f5f73ae.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.048
+b38fb69e-99642683.jpg,16,sign-controlled road,moderate,MODERATE,14,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3931c96-5417a573.jpg,13,sign-controlled road,moderate,MODERATE,10,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3933f83-a32ef4fd.jpg,6,sign-controlled road,low,HIGH,4,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.066
+b394dd7a-8901eb36.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b394dd7a-db2b62a1.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.056
+b394dd7a-fe45748a.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.053
+b39519c6-7f66da0f.jpg,6,traffic-controlled road,low,MODERATE,3,0,3,SLOW,APPROVE,CAUTION,SLOW,0.053
+b39519c6-b3787b96.jpg,11,traffic-controlled road,low,HIGH,5,1,5,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b39572b6-aa95db3d.jpg,8,road with vulnerable road users,low,HIGH,5,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b39572b6-ad240c2b.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3967d1b-0088ba4e.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3967d1b-2ff5c0ef.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b3967d1b-5dbec492.jpg,6,sign-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3969458-13fa5e0e.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3969458-7c67d658.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b396946b-d29f75f9.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.056
+b396e413-6c8191b9.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.05
+b398327e-08f3a1f2.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.063
+b398327e-3d2a2683.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.058
+b398327e-f873cb8b.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b398a52e-5d44ea66.jpg,8,sign-controlled road,low,MODERATE,5,0,3,SLOW,APPROVE,CAUTION,SLOW,0.049
+b398e0fb-257cf424.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3990772-45bf6ad7.jpg,7,traffic-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3990aa9-4fb64582.jpg,15,sign-controlled road,moderate,HIGH,12,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b3990aa9-8adaa51a.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b39dd7ca-a740454f.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.055
+b39e8c78-f02c29c6.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b39fe3cd-076e7ef7.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b39fe3cd-12217985.jpg,11,traffic-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.049
+b39fe3cd-183566f9.jpg,5,traffic-controlled road,low,HIGH,3,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b39fe3cd-1eb875fa.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.05
+b39fe3cd-227ff7a8.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b39fe3cd-29b2a728.jpg,16,traffic-controlled road,moderate,MODERATE,15,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b39fe3cd-2a77c651.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b39fe3cd-2b89090a.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b39fe3cd-34b1611e.jpg,7,traffic-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b39fe3cd-398678c5.jpg,5,traffic-controlled road,low,MODERATE,1,0,4,SLOW,APPROVE,CAUTION,SLOW,0.053
+b39fe3cd-553d15a3.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.047
+b39fe3cd-65f6ed9d.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b39fe3cd-d295442e.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b39fe3cd-d5fb9508.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b39fe3cd-f0d534c0.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b39ffdda-b9a4ad33.jpg,18,traffic-controlled road,moderate,MODERATE,15,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b39ffdda-eec0cc38.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.084
+b3a087a4-9d116610.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3a102ed-6ef54f5e.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3a1e72b-1f4b129d.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3a1e72b-f46924ca.jpg,12,traffic-controlled road,moderate,MODERATE,7,0,5,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3a1e72b-f9a8ed50.jpg,15,roadway,moderate,LOW,15,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3a238e3-de6b8b86.jpg,8,sign-controlled road,low,MODERATE,3,0,5,SLOW,APPROVE,CAUTION,SLOW,0.06
+b3a238e3-ede6d45d.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.05
+b3a3d166-3a6a258d.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3a4cbbb-73f71148.jpg,12,sign-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3a4cbbb-b67444d7.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b3a58c04-e89d17a2.jpg,14,sign-controlled road,moderate,HIGH,8,5,1,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b3a6f586-21d97cce.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.062
+b3a6f586-23d13c49.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3a6f586-3ea7e1ad.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b3a72605-98b37492.jpg,9,traffic-controlled road,moderate,MODERATE,6,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3a76bd5-4e7a1ce2.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3a7b21a-48bcf2b8.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3a84a0f-0fb529e1.jpg,10,sign-controlled road,moderate,MODERATE,9,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3a84a0f-61844c69.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b3a87019-ba714074.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b3a9281a-74ae5b60.jpg,11,traffic-controlled road,moderate,MODERATE,7,0,4,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3a9281a-75473a1b.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b3a9281a-8b4f26f1.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3a9281a-e8ba5d66.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b3a94ee5-68ed7d65.jpg,18,traffic-controlled road,moderate,MODERATE,13,0,5,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3a969fe-5181b89f.jpg,6,road with vulnerable road users,low,HIGH,4,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b3aacff1-967c15c1.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.057
+b3acb0a1-f459ea19.jpg,8,sign-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3ae380d-76bac333.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.055
+b3ae7668-c78f47c8.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b3b06694-627742e3.jpg,6,traffic-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.049
+b3b0f7f7-c97288ca.jpg,10,traffic-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.063
+b3b2ffbe-cd80cda8.jpg,16,traffic-controlled road,moderate,MODERATE,13,0,3,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3b44b49-3af119e3.jpg,14,sign-controlled road,moderate,HIGH,7,6,1,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b3b44b49-7336e3ee.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b3b4c0fe-2683b31e.jpg,8,traffic-controlled road,moderate,HIGH,6,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.051
+b3b64b42-403091d9.jpg,11,traffic-controlled road,moderate,HIGH,6,2,3,STOP,OVERRIDE,CRITICAL,STOP,0.051
+b3b64b42-dab3c506.jpg,15,traffic-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3b8fce6-c67646a7.jpg,12,road with vulnerable road users,moderate,HIGH,6,6,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b3b94eea-b06bca81.jpg,9,road with vulnerable road users,moderate,HIGH,6,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b3b9ee6e-6d2617d1.jpg,18,high-density roadway,high,MODERATE,18,0,0,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3bbc110-3ef16a61.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3bc36c8-03cb07d2.jpg,4,road with vulnerable road users,low,HIGH,3,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b3be4113-1fb56ec4.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3be4113-a7c6d89b.jpg,18,traffic-controlled road,low,HIGH,3,6,9,STOP,OVERRIDE,CRITICAL,STOP,0.048
+b3c0357a-10fef986.jpg,7,sign-controlled road,low,HIGH,4,2,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b3c0460d-33d7256d.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.062
+b3c094d3-75cda540.jpg,14,sign-controlled road,moderate,HIGH,10,3,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b3c21bae-260d0b00.jpg,3,sign-controlled road,low,MODERATE,1,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3c26aff-417063a0.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.049
+b3c26aff-63a0d7d6.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.056
+b3c2f984-a6fb75a4.jpg,19,sign-controlled road,high,MODERATE,18,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3c39081-34b43a1c.jpg,9,traffic-controlled road,low,MODERATE,4,0,5,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3c3f8ef-8f40dc74.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3c4e98b-0c191966.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b3c4e98b-2788a3e8.jpg,13,sign-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.06
+b3c4e98b-8469f497.jpg,11,traffic-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3c4e98b-da58e181.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.055
+b3c672a8-b7b886ae.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3c939e3-370d8f4a.jpg,8,sign-controlled road,low,HIGH,5,2,1,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b3c939e3-3fb7622a.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.053
+b3c939e3-61fb6427.jpg,15,sign-controlled road,moderate,MODERATE,7,0,8,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3c9eef1-dcb3d0e7.jpg,21,high-density roadway,high,MODERATE,21,0,0,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3cc736f-03134262.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3cc736f-7a7794c0.jpg,4,traffic-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.052
+b3cc736f-b7a66149.jpg,12,sign-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3cd4bfe-93377084.jpg,4,traffic-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3ce9f98-2b3d06d6.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.051
+b3ce9f98-2dc52573.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.053
+b3ce9f98-97451163.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b3d0ccae-26380ab5.jpg,7,traffic-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3d0d68d-cc5961d6.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3d264b3-fbaef5ac.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.05
+b3d4554c-86182e6e.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b3d46fca-a69e8189.jpg,13,sign-controlled road,moderate,MODERATE,10,0,3,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3d46fca-a8bd9b5c.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3d46fca-dbf2af72.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.051
+b3d54db3-9ac260a3.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b3d67c06-57b140bf.jpg,19,traffic-controlled road,high,MODERATE,16,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3d6c39a-07f81865.jpg,12,road with vulnerable road users,low,HIGH,4,8,0,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b3d6c39a-0a14df0d.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b3d6c39a-7bb39a3a.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.051
+b3d6c39a-a396c692.jpg,17,sign-controlled road,high,MODERATE,16,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3d6c39a-ecf305b3.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3da33d5-a64e7657.jpg,26,high-density roadway,high,MODERATE,26,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3db60f1-533170c9.jpg,11,traffic-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3dc64cd-37f9c22d.jpg,10,road with vulnerable road users,moderate,HIGH,6,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b3dc64cd-705e7567.jpg,9,traffic-controlled road,low,MODERATE,3,0,6,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3dd5345-15bbf8ed.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.049
+b3dfa1f5-9f4eded2.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.056
+b3e0345b-20d013f8.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3e0345b-69069f01.jpg,13,traffic-controlled road,low,HIGH,1,7,5,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b3e0345b-ae566cbd.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b3e08585-1fcf0877.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b3e08585-3f5e6565.jpg,7,road with vulnerable road users,moderate,HIGH,6,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b3e08585-5cf240fb.jpg,8,traffic-controlled road,low,MODERATE,3,0,5,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3e08585-cb03a2fb.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.048
+b3e137e5-fe7ef981.jpg,12,traffic-controlled road,moderate,MODERATE,11,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3e18480-118f9e2f.jpg,9,road with vulnerable road users,moderate,HIGH,7,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b3e18480-6c84e030.jpg,10,traffic-controlled road,moderate,HIGH,6,3,1,STOP,OVERRIDE,CRITICAL,STOP,0.089
+b3e2086f-4db03957.jpg,11,road with vulnerable road users,moderate,HIGH,7,4,0,STOP,OVERRIDE,CRITICAL,STOP,0.056
+b3e2086f-d41fbd4d.jpg,13,traffic-controlled road,low,HIGH,5,3,5,STOP,OVERRIDE,CRITICAL,STOP,0.063
+b3e32b36-0ca66c00.jpg,10,road with vulnerable road users,moderate,HIGH,7,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b3e51564-d2ac524c.jpg,18,road with vulnerable road users,moderate,HIGH,13,5,0,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b3e65789-dfe0bc9e.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b3e70fdd-e1df8660.jpg,8,traffic-controlled road,low,MODERATE,3,0,5,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3e72283-34ebe4f5.jpg,15,sign-controlled road,moderate,MODERATE,13,0,2,SLOW,APPROVE,CAUTION,SLOW,0.05
+b3e72283-584093dc.jpg,4,sign-controlled road,low,MODERATE,2,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b3e72283-595c3576.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b3e72283-d1f9593d.jpg,19,traffic-controlled road,moderate,HIGH,11,2,6,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b3e72283-d9fc39b0.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3e74777-122e3878.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.058
+b3e7bfdb-0ce50151.jpg,3,sign-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3e83de5-c5e9dcca.jpg,11,traffic-controlled road,moderate,MODERATE,6,0,5,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3e921ad-1fc43094.jpg,15,sign-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b3ea5e17-c67b7a7a.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b3ea802a-8830eb32.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b3ea802a-c689de9a.jpg,18,sign-controlled road,high,MODERATE,16,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b3eafc22-1064ce9e.jpg,11,sign-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b3eb8895-e5b1e6df.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.049
+b3ec8e38-41c64395.jpg,3,roadway,low,LOW,3,0,0,GO,APPROVE,SAFE,GO,0.058
+b3ee5ba2-6cc0565d.jpg,14,traffic-controlled road,moderate,HIGH,11,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.055
+b3eede0e-f4585509.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.053
+b3ef316c-2906f850.jpg,16,sign-controlled road,moderate,MODERATE,14,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3ef6557-e6709cd9.jpg,5,traffic-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3f0cdab-6712e58f.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.053
+b3f0cdab-d5954c9a.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b3f17367-d730de0b.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.048
+b3f2fee7-1482dee6.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.059
+b3f3c908-0ab1d376.jpg,16,high-density roadway,high,MODERATE,16,0,0,SLOW,APPROVE,CAUTION,SLOW,0.058
+b3f3c908-48568eda.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b3f3c908-baffb699.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b3f479a1-b85845b3.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.051
+b3f59b98-e7f870e2.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.058
+b3f603f2-4a80d188.jpg,5,traffic-controlled road,low,MODERATE,2,0,3,SLOW,APPROVE,CAUTION,SLOW,0.05
+b3f7c502-d89499e0.jpg,9,traffic-controlled road,low,MODERATE,4,0,5,SLOW,APPROVE,CAUTION,SLOW,0.051
+b3fbc6ad-4ee78a0d.jpg,1,sign-controlled road,empty,MODERATE,0,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b3fbc6ad-746053d9.jpg,18,traffic-controlled road,moderate,MODERATE,14,0,4,SLOW,APPROVE,CAUTION,SLOW,0.055
+b400b7f4-9c93e226.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b401b6fa-a9a7f11d.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b403b27c-37cac4b8.jpg,11,sign-controlled road,moderate,HIGH,9,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b40476bc-1397121a.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.057
+b4065fc4-ede06556.jpg,31,sign-controlled road,moderate,HIGH,15,14,2,STOP,OVERRIDE,CRITICAL,STOP,0.063
+b40669bb-19958f9a.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.056
+b406dc5a-44d22755.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.059
+b406dc5a-7a946e61.jpg,6,traffic-controlled road,low,MODERATE,4,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b407aa58-02233e09.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.055
+b4082905-e694720e.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.052
+b409ed8a-da6926db.jpg,11,traffic-controlled road,moderate,MODERATE,9,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b409ed8a-e7d46dce.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b40b0ea3-b242efc9.jpg,5,sign-controlled road,low,MODERATE,4,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b40cd5b3-ebe11d7a.jpg,10,traffic-controlled road,low,HIGH,5,3,2,STOP,OVERRIDE,CRITICAL,STOP,0.051
+b40ce2eb-ac2ffa01.jpg,9,sign-controlled road,moderate,MODERATE,7,0,2,SLOW,APPROVE,CAUTION,SLOW,0.061
+b40ce2eb-c53a5e8e.jpg,19,sign-controlled road,high,HIGH,17,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.053
+b40e08ea-f2d97c95.jpg,17,sign-controlled road,low,HIGH,3,12,2,STOP,OVERRIDE,CRITICAL,STOP,0.052
+b4110365-9ae12ee1.jpg,7,sign-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b4115405-2f28f75a.jpg,11,sign-controlled road,moderate,MODERATE,8,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b413b23f-7c897b06.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.062
+b415973a-b39bd6de.jpg,11,traffic-controlled road,moderate,HIGH,6,2,3,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b415cc29-7371aa85.jpg,12,sign-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.05
+b4174c37-1f3b4b77.jpg,12,sign-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b417ddcd-b1a6dfc8.jpg,7,roadway,moderate,LOW,7,0,0,SLOW,APPROVE,SAFE,SLOW,0.061
+b41ace08-830c808c.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b41ace08-88fb022d.jpg,12,sign-controlled road,moderate,MODERATE,10,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b41ace08-8b937256.jpg,7,traffic-controlled road,low,MODERATE,1,0,6,SLOW,APPROVE,CAUTION,SLOW,0.057
+b41ace08-c8468690.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b41b3454-e034bb74.jpg,10,roadway,moderate,LOW,10,0,0,SLOW,APPROVE,SAFE,SLOW,0.053
+b41cc383-337e708b.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b41d0744-6cabc495.jpg,15,traffic-controlled road,moderate,MODERATE,14,0,1,SLOW,APPROVE,CAUTION,SLOW,0.061
+b41d35f8-6cf85033.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.052
+b41d71c1-47e43030.jpg,15,sign-controlled road,moderate,MODERATE,13,0,2,SLOW,APPROVE,CAUTION,SLOW,0.059
+b41e6d87-872385f8.jpg,8,sign-controlled road,low,MODERATE,2,0,6,SLOW,APPROVE,CAUTION,SLOW,0.057
+b4201bd2-75c1998d.jpg,12,roadway,moderate,LOW,12,0,0,SLOW,APPROVE,SAFE,SLOW,0.057
+b421c89a-c7cdebb4.jpg,12,traffic-controlled road,low,MODERATE,5,0,7,SLOW,APPROVE,CAUTION,SLOW,0.055
+b422ec08-236606a0.jpg,13,road with vulnerable road users,moderate,HIGH,10,3,0,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b422ec08-d42660b6.jpg,14,sign-controlled road,moderate,MODERATE,13,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b4235ab3-6f3f972f.jpg,2,traffic-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.052
+b4235ab3-a1c929ae.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.05
+b4235ab3-b305d3e9.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.055
+b4253085-22b9e610.jpg,9,sign-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b4253085-3de357a1.jpg,10,traffic-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b4253085-85838593.jpg,5,sign-controlled road,low,HIGH,3,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b4253085-9f907156.jpg,5,sign-controlled road,low,MODERATE,3,0,2,SLOW,APPROVE,CAUTION,SLOW,0.054
+b4253085-ce679d21.jpg,5,sign-controlled road,low,HIGH,2,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b4253085-d5fcbadc.jpg,16,sign-controlled road,moderate,HIGH,11,3,2,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b4253988-26b49c14.jpg,7,traffic-controlled road,low,MODERATE,4,0,3,SLOW,APPROVE,CAUTION,SLOW,0.056
+b4259d0f-137ad720.jpg,13,sign-controlled road,moderate,MODERATE,12,0,1,SLOW,APPROVE,CAUTION,SLOW,0.05
+b4259d0f-8b672078.jpg,0,unknown,empty,LOW,0,0,0,GO,APPROVE,SAFE,GO,0.059
+b4259d0f-d93d7a19.jpg,9,traffic-controlled road,low,MODERATE,4,0,5,SLOW,APPROVE,CAUTION,SLOW,0.058
+b426ea12-4e58141a.jpg,16,traffic-controlled road,moderate,MODERATE,13,0,3,SLOW,APPROVE,CAUTION,SLOW,0.058
+b4278d1f-3a128041.jpg,2,sign-controlled road,empty,MODERATE,0,0,2,SLOW,APPROVE,CAUTION,SLOW,0.056
+b4278d1f-dbd0295c.jpg,5,sign-controlled road,low,MODERATE,2,0,3,SLOW,APPROVE,CAUTION,SLOW,0.059
+b4284bbe-1905abe0.jpg,19,traffic-controlled road,moderate,MODERATE,15,0,4,SLOW,APPROVE,CAUTION,SLOW,0.062
+b42913b9-49092dfe.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.054
+b42acb4c-ac2e0180.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.051
+b42b0859-0e5601ac.jpg,19,high-density roadway,high,MODERATE,19,0,0,SLOW,APPROVE,CAUTION,SLOW,0.059
+b42cd355-1ce051b1.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b42df626-243bcce8.jpg,4,roadway,low,LOW,4,0,0,GO,APPROVE,SAFE,GO,0.063
+b42df626-3c4d9bfd.jpg,16,traffic-controlled road,moderate,HIGH,11,2,3,STOP,OVERRIDE,CRITICAL,STOP,0.059
+b42df626-73f78ba9.jpg,10,sign-controlled road,moderate,HIGH,7,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.106
+b42df626-bee4420b.jpg,6,road with vulnerable road users,low,HIGH,4,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.061
+b42df626-e358ca4a.jpg,4,sign-controlled road,low,MODERATE,3,0,1,SLOW,APPROVE,CAUTION,SLOW,0.057
+b42e1548-6b544378.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b42e6271-4bce300c.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.06
+b42fdaf1-0925c561.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.059
+b4301c7b-735da0d0.jpg,5,road with vulnerable road users,low,HIGH,4,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b4301c7b-da5261f0.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.06
+b4304e43-89ba0daa.jpg,12,road with vulnerable road users,moderate,HIGH,11,1,0,STOP,OVERRIDE,CRITICAL,STOP,0.062
+b4333743-072dae1e.jpg,6,sign-controlled road,low,MODERATE,5,0,1,SLOW,APPROVE,CAUTION,SLOW,0.062
+b433534e-ff3646aa.jpg,13,traffic-controlled road,low,HIGH,5,2,6,STOP,OVERRIDE,CRITICAL,STOP,0.064
+b4340944-5f7048d1.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.058
+b439c4fe-5064fe59.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.074
+b439d51b-5d88ba11.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b43bcc83-c97d569e.jpg,9,sign-controlled road,moderate,HIGH,6,1,2,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b43de6e1-f20e4351.jpg,18,sign-controlled road,moderate,MODERATE,14,0,4,SLOW,APPROVE,CAUTION,SLOW,0.059
+b43eb946-92f9152d.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b43eb946-b8bc931c.jpg,5,roadway,low,LOW,5,0,0,GO,APPROVE,SAFE,GO,0.059
+b43eb946-c0cad251.jpg,9,roadway,moderate,LOW,9,0,0,SLOW,APPROVE,SAFE,SLOW,0.054
+b440d54c-2aff7bf8.jpg,9,road with vulnerable road users,moderate,HIGH,7,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.054
+b440d54c-5f5ff777.jpg,7,sign-controlled road,moderate,MODERATE,6,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b442c34a-6fe5cbba.jpg,8,road with vulnerable road users,moderate,HIGH,6,2,0,STOP,OVERRIDE,CRITICAL,STOP,0.05
+b4448a1d-e9c03bb5.jpg,11,traffic-controlled road,moderate,MODERATE,10,0,1,SLOW,APPROVE,CAUTION,SLOW,0.06
+b4466011-05cbc315.jpg,13,roadway,moderate,LOW,13,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b446d26a-9717e68c.jpg,1,roadway,low,LOW,1,0,0,GO,APPROVE,SAFE,GO,0.05
+b4475526-2f0bca11.jpg,3,traffic-controlled road,low,MODERATE,2,0,1,SLOW,APPROVE,CAUTION,SLOW,0.064
+b4475526-4a48bfe5.jpg,8,traffic-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.058
+b4475e22-27ceb162.jpg,10,sign-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b4478c66-0103c647.jpg,14,traffic-controlled road,moderate,HIGH,12,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.06
+b447a3cf-10656b18.jpg,8,traffic-controlled road,moderate,MODERATE,6,0,2,SLOW,APPROVE,CAUTION,SLOW,0.051
+b449af64-1cfd83f9.jpg,2,roadway,low,LOW,2,0,0,GO,APPROVE,SAFE,GO,0.059
+b44a71bf-4d366798.jpg,6,sign-controlled road,low,HIGH,2,2,2,STOP,OVERRIDE,CRITICAL,STOP,0.058
+b44a71bf-712b4538.jpg,9,traffic-controlled road,moderate,MODERATE,8,0,1,SLOW,APPROVE,CAUTION,SLOW,0.062
+b44a7e5f-1db66cfe.jpg,7,sign-controlled road,low,HIGH,5,1,1,STOP,OVERRIDE,CRITICAL,STOP,0.057
+b44a7e5f-30a49487.jpg,7,sign-controlled road,low,MODERATE,5,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b44a7e5f-37c27ba5.jpg,14,traffic-controlled road,moderate,MODERATE,10,0,4,SLOW,APPROVE,CAUTION,SLOW,0.06
+b44a7e5f-89b66e95.jpg,10,traffic-controlled road,moderate,MODERATE,8,0,2,SLOW,APPROVE,CAUTION,SLOW,0.047
+b44b6eff-dda9780d.jpg,8,roadway,moderate,LOW,8,0,0,SLOW,APPROVE,SAFE,SLOW,0.056
+b44bcbbe-e980e271.jpg,6,roadway,moderate,LOW,6,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b44cb319-fb4c4b4f.jpg,3,traffic-controlled road,low,MODERATE,1,0,2,SLOW,APPROVE,CAUTION,SLOW,0.057
+b44d57fb-e85243b2.jpg,3,sign-controlled road,low,MODERATE,1,0,2,SLOW,APPROVE,CAUTION,SLOW,0.055
+b44ee0ec-a0786e4c.jpg,2,sign-controlled road,low,MODERATE,1,0,1,SLOW,APPROVE,CAUTION,SLOW,0.053
+b44f2475-c80a51b7.jpg,14,traffic-controlled road,moderate,MODERATE,9,0,5,SLOW,APPROVE,CAUTION,SLOW,0.058
+b44f7365-beb4d3e7.jpg,11,roadway,moderate,LOW,11,0,0,SLOW,APPROVE,SAFE,SLOW,0.052
+b44fd543-87f493ee.jpg,14,roadway,moderate,LOW,14,0,0,SLOW,APPROVE,SAFE,SLOW,0.055
+b44fd543-a15ceadf.jpg,17,high-density roadway,high,MODERATE,17,0,0,SLOW,APPROVE,CAUTION,SLOW,0.055
+b451b495-bb458d47.jpg,12,traffic-controlled road,moderate,MODERATE,6,0,6,SLOW,APPROVE,CAUTION,SLOW,0.053
+b4536117-bc85ba28.jpg,8,sign-controlled road,moderate,MODERATE,7,0,1,SLOW,APPROVE,CAUTION,SLOW,0.061
+b454034b-d84dae74.jpg,13,traffic-controlled road,moderate,MODERATE,11,0,2,SLOW,APPROVE,CAUTION,SLOW,0.058
+b4542860-0b880bb4.jpg,10,traffic-controlled road,low,HIGH,5,4,1,STOP,OVERRIDE,CRITICAL,STOP,0.062

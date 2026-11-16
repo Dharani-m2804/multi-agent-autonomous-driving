@@ -1,0 +1,2026 @@
+{
+    "dataset": "BDD100K",
+    "split": "validation",
+    "available_images": 10000,
+    "processed_images": 100,
+    "confidence": 0.25,
+    "average_objects": 8.7,
+    "average_processing_time": 0.074,
+    "approximate_fps": 13.426,
+    "action_distribution": {
+        "SLOW": 62,
+        "STOP": 16,
+        "GO": 22
+    },
+    "risk_distribution": {
+        "MODERATE": 51,
+        "HIGH": 16,
+        "LOW": 33
+    },
+    "safety_distribution": {
+        "APPROVE": 84,
+        "OVERRIDE": 16
+    },
+    "scene_distribution": {
+        "high-density roadway": 4,
+        "sign-controlled road": 29,
+        "traffic-controlled road": 25,
+        "roadway": 30,
+        "road with vulnerable road users": 9,
+        "unknown": 3
+    },
+    "results": [
+        {
+            "image": "b1c66a42-6f7d68ca.jpg",
+            "objects": 20,
+            "object_summary": {
+                "car": 20
+            },
+            "scene_type": "high-density roadway",
+            "traffic_density": "high",
+            "risk_level": "MODERATE",
+            "vehicle_count": 20,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 1.756,
+            "explanation": "The perception system detected 20 object(s) in the scene. Detected objects include: 20 car. The scene was classified as 'high-density roadway'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 20 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: High traffic density detected with 20 vehicles. Maintain a reduced and controlled speed. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: High traffic density detected. Safety reasoning: Planner already selected a cautious action. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1c81faa-3df17267.jpg",
+            "objects": 1,
+            "object_summary": {
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "empty",
+            "risk_level": "MODERATE",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.08,
+            "explanation": "The perception system detected 1 object(s) in the scene. Detected objects include: 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'empty'. The estimated scene risk level was 'MODERATE'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1c81faa-c80764c5.jpg",
+            "objects": 7,
+            "object_summary": {
+                "traffic sign": 3,
+                "car": 4
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.064,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 4 car, 3 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1c9c847-3bda4659.jpg",
+            "objects": 17,
+            "object_summary": {
+                "car": 16,
+                "truck": 1
+            },
+            "scene_type": "high-density roadway",
+            "traffic_density": "high",
+            "risk_level": "MODERATE",
+            "vehicle_count": 17,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 17 object(s) in the scene. Detected objects include: 16 car, 1 truck. The scene was classified as 'high-density roadway'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 17 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: High traffic density detected with 17 vehicles. Maintain a reduced and controlled speed. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: High traffic density detected. Safety reasoning: Planner already selected a cautious action. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ca2e5d-84cf9134.jpg",
+            "objects": 15,
+            "object_summary": {
+                "car": 5,
+                "pedestrian": 8,
+                "traffic light": 2
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 5,
+            "vulnerable_users": 8,
+            "traffic_controls": 2,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.06,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 5 car, 8 pedestrian, 2 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 5 vehicle(s), 8 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1ca8418-84a133a0.jpg",
+            "objects": 4,
+            "object_summary": {
+                "car": 1,
+                "traffic light": 2,
+                "traffic sign": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 1,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 4 object(s) in the scene. Detected objects include: 1 car, 2 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 1 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1cac6a7-04e33135.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 6,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.061,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 6 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1cd1e94-26dd524f.jpg",
+            "objects": 6,
+            "object_summary": {
+                "car": 5,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 5 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1cd1e94-549d0bfe.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 7,
+                "truck": 1,
+                "pedestrian": 1,
+                "bus": 1,
+                "traffic sign": 3
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 9,
+            "vulnerable_users": 1,
+            "traffic_controls": 3,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 1 bus, 7 car, 1 pedestrian, 3 traffic sign, 1 truck. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 9 vehicle(s), 1 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1ceb32e-3f481b43.jpg",
+            "objects": 6,
+            "object_summary": {
+                "car": 6
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.054,
+            "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 6 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 6 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ceb32e-51852abe.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 11,
+                "traffic light": 1,
+                "traffic sign": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 11,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.066,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 11 car, 1 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 11 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ceb32e-813f84b2.jpg",
+            "objects": 2,
+            "object_summary": {
+                "car": 2
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 2 object(s) in the scene. Detected objects include: 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1ceb32e-a106591d.jpg",
+            "objects": 15,
+            "object_summary": {
+                "traffic sign": 1,
+                "car": 13,
+                "truck": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 14,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.063,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 13 car, 1 traffic sign, 1 truck. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 14 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1cebfb7-284f5117.jpg",
+            "objects": 1,
+            "object_summary": {
+                "car": 1
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 1,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 1 object(s) in the scene. Detected objects include: 1 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 1 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d0091f-75824d0d.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.051,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d0091f-f2c2d2ae.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 7,
+                "truck": 1,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 8,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.063,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 7 car, 1 traffic sign, 1 truck. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 8 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d0a191-03dcecc2.jpg",
+            "objects": 20,
+            "object_summary": {
+                "car": 8,
+                "pedestrian": 9,
+                "traffic sign": 1,
+                "traffic light": 2
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 8,
+            "vulnerable_users": 9,
+            "traffic_controls": 3,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.064,
+            "explanation": "The perception system detected 20 object(s) in the scene. Detected objects include: 8 car, 9 pedestrian, 2 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 8 vehicle(s), 9 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d0a191-06deb55d.jpg",
+            "objects": 15,
+            "object_summary": {
+                "pedestrian": 8,
+                "car": 7
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 7,
+            "vulnerable_users": 8,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 7 car, 8 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 7 vehicle(s), 8 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d0a191-28f0e779.jpg",
+            "objects": 11,
+            "object_summary": {
+                "car": 9,
+                "traffic sign": 2
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 9,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.061,
+            "explanation": "The perception system detected 11 object(s) in the scene. Detected objects include: 9 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 9 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d0a191-2ed2269e.jpg",
+            "objects": 8,
+            "object_summary": {
+                "car": 7,
+                "pedestrian": 1
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 7,
+            "vulnerable_users": 1,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 8 object(s) in the scene. Detected objects include: 7 car, 1 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 7 vehicle(s), 1 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d0a191-5490450b.jpg",
+            "objects": 11,
+            "object_summary": {
+                "car": 9,
+                "traffic sign": 1,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 9,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.065,
+            "explanation": "The perception system detected 11 object(s) in the scene. Detected objects include: 9 car, 1 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 9 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d0a191-65deaeef.jpg",
+            "objects": 9,
+            "object_summary": {
+                "truck": 2,
+                "car": 6,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 8,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.051,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 6 car, 1 traffic sign, 2 truck. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 8 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d0a191-de8948f6.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 12,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.063,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 12 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d10d08-5b108225.jpg",
+            "objects": 12,
+            "object_summary": {
+                "car": 11,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 11,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 12 object(s) in the scene. Detected objects include: 11 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 11 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d10d08-743fd86c.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 4,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 4 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d10d08-c35503b8.jpg",
+            "objects": 11,
+            "object_summary": {
+                "car": 10,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 10,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.071,
+            "explanation": "The perception system detected 11 object(s) in the scene. Detected objects include: 10 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 10 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d10d08-da110fcb.jpg",
+            "objects": 16,
+            "object_summary": {
+                "car": 12,
+                "traffic sign": 2,
+                "traffic light": 2
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 4,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 16 object(s) in the scene. Detected objects include: 12 car, 2 traffic light, 2 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 4 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d10d08-ec660956.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 3,
+                "traffic sign": 1,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 3 car, 1 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d22449-117aa773.jpg",
+            "objects": 8,
+            "object_summary": {
+                "car": 7,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.054,
+            "explanation": "The perception system detected 8 object(s) in the scene. Detected objects include: 7 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d22449-15fb948f.jpg",
+            "objects": 2,
+            "object_summary": {
+                "car": 2
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 2 object(s) in the scene. Detected objects include: 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d22ed6-f1cac061.jpg",
+            "objects": 14,
+            "object_summary": {
+                "truck": 1,
+                "car": 11,
+                "traffic sign": 1,
+                "pedestrian": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 12,
+            "vulnerable_users": 1,
+            "traffic_controls": 1,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 14 object(s) in the scene. Detected objects include: 11 car, 1 pedestrian, 1 traffic sign, 1 truck. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 12 vehicle(s), 1 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d3907b-2278601b.jpg",
+            "objects": 17,
+            "object_summary": {
+                "traffic sign": 2,
+                "car": 15
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 15,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 17 object(s) in the scene. Detected objects include: 15 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 15 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d4b62c-60aab822.jpg",
+            "objects": 12,
+            "object_summary": {
+                "car": 12
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.093,
+            "explanation": "The perception system detected 12 object(s) in the scene. Detected objects include: 12 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 12 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d4b62c-89eeb5d3.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 2,
+                "traffic light": 3
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.05,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 2 car, 3 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d4b62c-d9805029.jpg",
+            "objects": 26,
+            "object_summary": {
+                "car": 25,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "high",
+            "risk_level": "MODERATE",
+            "vehicle_count": 25,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.051,
+            "explanation": "The perception system detected 26 object(s) in the scene. Detected objects include: 25 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 25 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d59b1f-a38aec79.jpg",
+            "objects": 0,
+            "object_summary": {},
+            "scene_type": "unknown",
+            "traffic_density": "empty",
+            "risk_level": "LOW",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 0 object(s) in the scene. The scene was classified as 'unknown'. Traffic density was classified as 'empty'. The estimated scene risk level was 'LOW'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d7b3ac-0bdb47dc.jpg",
+            "objects": 4,
+            "object_summary": {
+                "car": 4
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 4 object(s) in the scene. Detected objects include: 4 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d7b3ac-2a92e19f.jpg",
+            "objects": 2,
+            "object_summary": {
+                "car": 2
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 2 object(s) in the scene. Detected objects include: 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d7b3ac-36f2d3b7.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 4,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 4 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d7b3ac-5744370e.jpg",
+            "objects": 1,
+            "object_summary": {
+                "car": 1
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 1,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 1 object(s) in the scene. Detected objects include: 1 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 1 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d7b3ac-5af8623b.jpg",
+            "objects": 0,
+            "object_summary": {},
+            "scene_type": "unknown",
+            "traffic_density": "empty",
+            "risk_level": "LOW",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 0 object(s) in the scene. The scene was classified as 'unknown'. Traffic density was classified as 'empty'. The estimated scene risk level was 'LOW'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d7b3ac-995f9d8a.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 3,
+                "pedestrian": 2
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 3,
+            "vulnerable_users": 2,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 3 car, 2 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 3 vehicle(s), 2 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d7b3ac-9e14f05f.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 6,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 6 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d7b3ac-afa57f22.jpg",
+            "objects": 2,
+            "object_summary": {
+                "car": 2
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 2 object(s) in the scene. Detected objects include: 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1d8735d-eee9f184.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 12,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 12 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d968b9-563405f4.jpg",
+            "objects": 8,
+            "object_summary": {
+                "car": 6,
+                "traffic light": 2
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 8 object(s) in the scene. Detected objects include: 6 car, 2 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d968b9-ce42734f.jpg",
+            "objects": 19,
+            "object_summary": {
+                "car": 18,
+                "pedestrian": 1
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "high",
+            "risk_level": "HIGH",
+            "vehicle_count": 18,
+            "vulnerable_users": 1,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 19 object(s) in the scene. Detected objects include: 18 car, 1 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'high'. The estimated scene risk level was 'HIGH'. The scene contained 18 vehicle(s), 1 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d971b4-ac67ca0d.jpg",
+            "objects": 14,
+            "object_summary": {
+                "car": 14
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 14,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 14 object(s) in the scene. Detected objects include: 14 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 14 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 14 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1d9e136-6c94ea3f.jpg",
+            "objects": 8,
+            "object_summary": {
+                "truck": 1,
+                "car": 5,
+                "bus": 1,
+                "pedestrian": 1
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 7,
+            "vulnerable_users": 1,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 8 object(s) in the scene. Detected objects include: 1 bus, 5 car, 1 pedestrian, 1 truck. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 7 vehicle(s), 1 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1d9e136-9ab25cb3.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 7,
+                "traffic sign": 2
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.052,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 7 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1da9c53-0f3d4c5d.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 5
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 5 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1dac7f7-6b2e0382.jpg",
+            "objects": 11,
+            "object_summary": {
+                "traffic sign": 1,
+                "car": 10
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 10,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 11 object(s) in the scene. Detected objects include: 10 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 10 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1db7e22-cfa74dc3.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1dce572-c6a8cb5e.jpg",
+            "objects": 14,
+            "object_summary": {
+                "car": 13,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 13,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.05,
+            "explanation": "The perception system detected 14 object(s) in the scene. Detected objects include: 13 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 13 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1dd58c1-8b546ba7.jpg",
+            "objects": 15,
+            "object_summary": {
+                "car": 11,
+                "pedestrian": 4
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 11,
+            "vulnerable_users": 4,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 11 car, 4 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 11 vehicle(s), 4 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1df722f-57d21f3f.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 7
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 7 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 7 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1df722f-5bcc3db7.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1e0c01d-dd9e6e2f.jpg",
+            "objects": 7,
+            "object_summary": {
+                "truck": 2,
+                "pedestrian": 1,
+                "bus": 1,
+                "car": 3
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 6,
+            "vulnerable_users": 1,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.061,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 1 bus, 3 car, 1 pedestrian, 2 truck. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 6 vehicle(s), 1 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1e1a7b8-0aec80e8.jpg",
+            "objects": 6,
+            "object_summary": {
+                "bus": 1,
+                "truck": 1,
+                "car": 4
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 1 bus, 4 car, 1 truck. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 6 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e1a7b8-65ec7612.jpg",
+            "objects": 15,
+            "object_summary": {
+                "car": 4,
+                "traffic light": 5,
+                "traffic sign": 6
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 11,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 4 car, 5 traffic light, 6 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 11 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e1a7b8-a7426a97.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 5
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.051,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 5 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1e1a7b8-b397c445.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 4,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 4 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e2346e-c5f98707.jpg",
+            "objects": 3,
+            "object_summary": {
+                "traffic light": 3
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "empty",
+            "risk_level": "MODERATE",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.051,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'empty'. The estimated scene risk level was 'MODERATE'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e3e9f5-92377424.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 9
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 9,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 9 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 9 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 9 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e62c91-eca210a9.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 9
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 9,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 9 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 9 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 9 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e6efc0-2552cc5d.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 2,
+                "truck": 1
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 2 car, 1 truck. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1e88fd2-c1e4fd2b.jpg",
+            "objects": 0,
+            "object_summary": {},
+            "scene_type": "unknown",
+            "traffic_density": "empty",
+            "risk_level": "LOW",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 0 object(s) in the scene. The scene was classified as 'unknown'. Traffic density was classified as 'empty'. The estimated scene risk level was 'LOW'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1e8ad72-c3c79240.jpg",
+            "objects": 10,
+            "object_summary": {
+                "traffic sign": 3,
+                "car": 7
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 10 object(s) in the scene. Detected objects include: 7 car, 3 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1e9ee0e-67e26f2e.jpg",
+            "objects": 24,
+            "object_summary": {
+                "car": 24
+            },
+            "scene_type": "high-density roadway",
+            "traffic_density": "high",
+            "risk_level": "MODERATE",
+            "vehicle_count": 24,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.054,
+            "explanation": "The perception system detected 24 object(s) in the scene. Detected objects include: 24 car. The scene was classified as 'high-density roadway'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 24 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: High traffic density detected with 24 vehicles. Maintain a reduced and controlled speed. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: High traffic density detected. Safety reasoning: Planner already selected a cautious action. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ea0ae4-4f770228.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 3,
+                "traffic sign": 2
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 3 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1eb9133-5cc75c18.jpg",
+            "objects": 6,
+            "object_summary": {
+                "car": 5,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.055,
+            "explanation": "The perception system detected 6 object(s) in the scene. Detected objects include: 5 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ebfc3c-740ec84a.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 11,
+                "traffic sign": 2
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 11,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 11 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 11 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ebfc3c-cc9c2bb8.jpg",
+            "objects": 17,
+            "object_summary": {
+                "car": 4,
+                "pedestrian": 8,
+                "traffic light": 2,
+                "traffic sign": 3
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 4,
+            "vulnerable_users": 8,
+            "traffic_controls": 5,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 17 object(s) in the scene. Detected objects include: 4 car, 8 pedestrian, 2 traffic light, 3 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 4 vehicle(s), 8 vulnerable road user(s), and 5 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1ee702d-0ae1fc10.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 3,
+                "traffic sign": 4
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 4,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 3 car, 4 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 4 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ee702d-4a193906.jpg",
+            "objects": 15,
+            "object_summary": {
+                "car": 15
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 15,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 15 object(s) in the scene. Detected objects include: 15 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 15 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 15 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1ee702d-525fcebf.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 7
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 7 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 7 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f022d3-3774de8b.jpg",
+            "objects": 12,
+            "object_summary": {
+                "car": 12
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.06,
+            "explanation": "The perception system detected 12 object(s) in the scene. Detected objects include: 12 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 12 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f022d3-45162c67.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 2,
+                "traffic light": 3,
+                "bus": 1,
+                "truck": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 1 bus, 2 car, 3 traffic light, 1 truck. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f0efd9-37a14dda.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.065,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1f0efd9-e900c6e5.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 3,
+                "traffic sign": 2
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 2,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 3 car, 2 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f20aa0-3401c3bf.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 8,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 8,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 8 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 8 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f20aa0-50213047.jpg",
+            "objects": 5,
+            "object_summary": {
+                "car": 5
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.088,
+            "explanation": "The perception system detected 5 object(s) in the scene. Detected objects include: 5 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1f20aa0-6ef1db42.jpg",
+            "objects": 20,
+            "object_summary": {
+                "car": 20
+            },
+            "scene_type": "high-density roadway",
+            "traffic_density": "high",
+            "risk_level": "MODERATE",
+            "vehicle_count": 20,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 20 object(s) in the scene. Detected objects include: 20 car. The scene was classified as 'high-density roadway'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 20 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: High traffic density detected with 20 vehicles. Maintain a reduced and controlled speed. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: High traffic density detected. Safety reasoning: Planner already selected a cautious action. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f25ff6-1ddb7e43.jpg",
+            "objects": 4,
+            "object_summary": {
+                "car": 4
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 4,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 4 object(s) in the scene. Detected objects include: 4 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 4 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1f4491b-07b32e8c.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 2,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.052,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 2 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f4491b-09593e90.jpg",
+            "objects": 8,
+            "object_summary": {
+                "bus": 1,
+                "truck": 1,
+                "car": 5,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 7,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.053,
+            "explanation": "The perception system detected 8 object(s) in the scene. Detected objects include: 1 bus, 5 car, 1 traffic light, 1 truck. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 7 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f4491b-16256d7c.jpg",
+            "objects": 14,
+            "object_summary": {
+                "car": 9,
+                "traffic sign": 3,
+                "traffic light": 1,
+                "bus": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 10,
+            "vulnerable_users": 0,
+            "traffic_controls": 4,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.052,
+            "explanation": "The perception system detected 14 object(s) in the scene. Detected objects include: 1 bus, 9 car, 1 traffic light, 3 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 10 vehicle(s), 0 vulnerable road user(s), and 4 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f4491b-33824f31.jpg",
+            "objects": 16,
+            "object_summary": {
+                "car": 7,
+                "pedestrian": 7,
+                "traffic light": 2
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "HIGH",
+            "vehicle_count": 7,
+            "vulnerable_users": 7,
+            "traffic_controls": 2,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.061,
+            "explanation": "The perception system detected 16 object(s) in the scene. Detected objects include: 7 car, 7 pedestrian, 2 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'HIGH'. The scene contained 7 vehicle(s), 7 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1f4491b-846d8cb2.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.057,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1f4491b-97465266.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 6,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 6,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 6 car, 1 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 6 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f4491b-9958bd99.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 5,
+                "pedestrian": 2,
+                "traffic sign": 1,
+                "traffic light": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 5,
+            "vulnerable_users": 2,
+            "traffic_controls": 2,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 5 car, 2 pedestrian, 1 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 5 vehicle(s), 2 vulnerable road user(s), and 2 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1f4491b-bf7d513f.jpg",
+            "objects": 2,
+            "object_summary": {
+                "car": 2
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 2,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.056,
+            "explanation": "The perception system detected 2 object(s) in the scene. Detected objects include: 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 2 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        },
+        {
+            "image": "b1f4491b-cf446195.jpg",
+            "objects": 13,
+            "object_summary": {
+                "car": 12,
+                "traffic sign": 1
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 12,
+            "vulnerable_users": 0,
+            "traffic_controls": 1,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 13 object(s) in the scene. Detected objects include: 12 car, 1 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 12 vehicle(s), 0 vulnerable road user(s), and 1 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f4491b-d8d1459c.jpg",
+            "objects": 7,
+            "object_summary": {
+                "car": 4,
+                "pedestrian": 2,
+                "bus": 1
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 5,
+            "vulnerable_users": 2,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.059,
+            "explanation": "The perception system detected 7 object(s) in the scene. Detected objects include: 1 bus, 4 car, 2 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 5 vehicle(s), 2 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1f4491b-dd8dfed5.jpg",
+            "objects": 9,
+            "object_summary": {
+                "car": 9
+            },
+            "scene_type": "roadway",
+            "traffic_density": "moderate",
+            "risk_level": "LOW",
+            "vehicle_count": 9,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "SLOW",
+            "processing_time": 0.047,
+            "explanation": "The perception system detected 9 object(s) in the scene. Detected objects include: 9 car. The scene was classified as 'roadway'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'LOW'. The scene contained 9 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Moderate traffic detected with 9 vehicles. Proceed cautiously. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f62c41-ed0c6521.jpg",
+            "objects": 4,
+            "object_summary": {
+                "car": 3,
+                "pedestrian": 1
+            },
+            "scene_type": "road with vulnerable road users",
+            "traffic_density": "low",
+            "risk_level": "HIGH",
+            "vehicle_count": 3,
+            "vulnerable_users": 1,
+            "traffic_controls": 0,
+            "planner_action": "STOP",
+            "safety_decision": "OVERRIDE",
+            "safety_level": "CRITICAL",
+            "final_action": "STOP",
+            "processing_time": 0.061,
+            "explanation": "The perception system detected 4 object(s) in the scene. Detected objects include: 3 car, 1 pedestrian. The scene was classified as 'road with vulnerable road users'. Traffic density was classified as 'low'. The estimated scene risk level was 'HIGH'. The scene contained 3 vehicle(s), 1 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'STOP'. Planning reason: High-risk road situation detected. The vehicle should stop until the situation is confirmed safe. The Safety Agent returned 'OVERRIDE' with safety level 'CRITICAL'. Safety reasoning: Vulnerable road user detected. Safety reasoning: Vehicle should stop until the road situation is confirmed safe. Therefore, the final recommended driving action is 'STOP'."
+        },
+        {
+            "image": "b1f6c103-5ce1f3c6.jpg",
+            "objects": 3,
+            "object_summary": {
+                "traffic sign": 3
+            },
+            "scene_type": "sign-controlled road",
+            "traffic_density": "empty",
+            "risk_level": "MODERATE",
+            "vehicle_count": 0,
+            "vulnerable_users": 0,
+            "traffic_controls": 3,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.048,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 traffic sign. The scene was classified as 'sign-controlled road'. Traffic density was classified as 'empty'. The estimated scene risk level was 'MODERATE'. The scene contained 0 vehicle(s), 0 vulnerable road user(s), and 3 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f6c103-8b75ea3e.jpg",
+            "objects": 12,
+            "object_summary": {
+                "car": 8,
+                "traffic light": 3,
+                "traffic sign": 1
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "moderate",
+            "risk_level": "MODERATE",
+            "vehicle_count": 8,
+            "vulnerable_users": 0,
+            "traffic_controls": 4,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.058,
+            "explanation": "The perception system detected 12 object(s) in the scene. Detected objects include: 8 car, 3 traffic light, 1 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'moderate'. The estimated scene risk level was 'MODERATE'. The scene contained 8 vehicle(s), 0 vulnerable road user(s), and 4 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f6c103-b00e8aad.jpg",
+            "objects": 12,
+            "object_summary": {
+                "car": 5,
+                "traffic light": 7
+            },
+            "scene_type": "traffic-controlled road",
+            "traffic_density": "low",
+            "risk_level": "MODERATE",
+            "vehicle_count": 5,
+            "vulnerable_users": 0,
+            "traffic_controls": 7,
+            "planner_action": "SLOW",
+            "safety_decision": "APPROVE",
+            "safety_level": "CAUTION",
+            "final_action": "SLOW",
+            "processing_time": 0.052,
+            "explanation": "The perception system detected 12 object(s) in the scene. Detected objects include: 5 car, 7 traffic light. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'low'. The estimated scene risk level was 'MODERATE'. The scene contained 5 vehicle(s), 0 vulnerable road user(s), and 7 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'."
+        },
+        {
+            "image": "b1f85377-44885085.jpg",
+            "objects": 3,
+            "object_summary": {
+                "car": 3
+            },
+            "scene_type": "roadway",
+            "traffic_density": "low",
+            "risk_level": "LOW",
+            "vehicle_count": 3,
+            "vulnerable_users": 0,
+            "traffic_controls": 0,
+            "planner_action": "GO",
+            "safety_decision": "APPROVE",
+            "safety_level": "SAFE",
+            "final_action": "GO",
+            "processing_time": 0.054,
+            "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 3 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'."
+        }
+    ]
+}

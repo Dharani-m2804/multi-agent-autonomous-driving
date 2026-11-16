@@ -1,0 +1,102 @@
+{
+    "image": "cce8ee4f-ed9bff06.jpg",
+    "perception": {
+        "image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\Dataset\\bdd100k\\bdd100k\\images\\100k\\test\\cce8ee4f-ed9bff06.jpg",
+        "num_objects": 3,
+        "detections": [
+            {
+                "class_id": 1,
+                "class": "bus",
+                "confidence": 0.9014,
+                "bbox": [
+                    668.63,
+                    127.24,
+                    1158.11,
+                    459.75
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.7828,
+                "bbox": [
+                    1143.46,
+                    318.07,
+                    1280.0,
+                    491.82
+                ]
+            },
+            {
+                "class_id": 2,
+                "class": "car",
+                "confidence": 0.3654,
+                "bbox": [
+                    633.88,
+                    318.26,
+                    664.47,
+                    341.75
+                ]
+            }
+        ],
+        "summary": {
+            "bus": 1,
+            "car": 2
+        },
+        "annotated_image": "C:\\Users\\mdhar\\OneDrive\\Desktop\\MultiAgent-Autonomous-Driving\\results\\perception_visualizations\\cce8ee4f-ed9bff06_detected.jpg"
+    },
+    "scene_understanding": {
+        "scene_type": "roadway",
+        "traffic_density": "low",
+        "object_summary": {
+            "bus": 1,
+            "car": 2
+        },
+        "vehicle_count": 3,
+        "vulnerable_users": 0,
+        "traffic_controls": 0,
+        "risk_level": "LOW",
+        "risk_indicators": []
+    },
+    "planning": {
+        "action": "GO",
+        "speed_level": "NORMAL",
+        "reason": "No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring.",
+        "priority": "LOW",
+        "risk_level": "LOW",
+        "vehicle_count": 3,
+        "vulnerable_users": 0,
+        "traffic_controls": 0,
+        "traffic_density": "low",
+        "risk_indicators": []
+    },
+    "safety": {
+        "proposed_action": "GO",
+        "final_action": "GO",
+        "decision": "APPROVE",
+        "safety_level": "SAFE",
+        "reasons": [
+            "No major safety hazards detected.",
+            "Planner action is approved."
+        ],
+        "risk_level": "LOW",
+        "vulnerable_users": 0,
+        "traffic_controls": 0,
+        "traffic_density": "low",
+        "risk_indicators": []
+    },
+    "explanation": {
+        "final_action": "GO",
+        "explanation": "The perception system detected 3 object(s) in the scene. Detected objects include: 1 bus, 2 car. The scene was classified as 'roadway'. Traffic density was classified as 'low'. The estimated scene risk level was 'LOW'. The scene contained 3 vehicle(s), 0 vulnerable road user(s), and 0 traffic control object(s). The Planning Agent proposed 'GO'. Planning reason: No major hazards were identified. The vehicle may proceed normally while continuing environmental monitoring. The Safety Agent returned 'APPROVE' with safety level 'SAFE'. Safety reasoning: No major safety hazards detected. Safety reasoning: Planner action is approved. Therefore, the final recommended driving action is 'GO'.",
+        "object_summary": {
+            "bus": 1,
+            "car": 2
+        },
+        "scene_type": "roadway",
+        "traffic_density": "low",
+        "risk_level": "LOW",
+        "planning_action": "GO",
+        "safety_decision": "APPROVE",
+        "safety_level": "SAFE"
+    },
+    "processing_time": 6.724361181259155
+}

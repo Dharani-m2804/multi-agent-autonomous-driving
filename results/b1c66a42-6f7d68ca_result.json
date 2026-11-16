@@ -1,0 +1,86 @@
+{
+    "image": "b1c66a42-6f7d68ca.jpg",
+    "perception": {
+        "num_objects": 29,
+        "summary": {
+            "car": 24,
+            "traffic sign": 3,
+            "traffic light": 2
+        }
+    },
+    "scene": {
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "high",
+        "object_summary": {
+            "car": 24,
+            "traffic sign": 3,
+            "traffic light": 2
+        },
+        "vehicle_count": 24,
+        "vulnerable_users": 0,
+        "traffic_controls": 5,
+        "risk_level": "MODERATE",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.72)",
+            "traffic sign detected (confidence=0.70)",
+            "traffic sign detected (confidence=0.65)",
+            "traffic light detected (confidence=0.52)",
+            "traffic light detected (confidence=0.36)"
+        ]
+    },
+    "planning": {
+        "action": "SLOW",
+        "speed_level": "LOW",
+        "reason": "Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions.",
+        "priority": "HIGH",
+        "risk_level": "MODERATE",
+        "vehicle_count": 24,
+        "vulnerable_users": 0,
+        "traffic_controls": 5,
+        "traffic_density": "high",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.72)",
+            "traffic sign detected (confidence=0.70)",
+            "traffic sign detected (confidence=0.65)",
+            "traffic light detected (confidence=0.52)",
+            "traffic light detected (confidence=0.36)"
+        ]
+    },
+    "safety": {
+        "proposed_action": "SLOW",
+        "final_action": "SLOW",
+        "decision": "APPROVE",
+        "safety_level": "CAUTION",
+        "reasons": [
+            "Traffic control infrastructure detected."
+        ],
+        "risk_level": "MODERATE",
+        "vulnerable_users": 0,
+        "traffic_controls": 5,
+        "traffic_density": "high",
+        "risk_indicators": [
+            "traffic sign detected (confidence=0.72)",
+            "traffic sign detected (confidence=0.70)",
+            "traffic sign detected (confidence=0.65)",
+            "traffic light detected (confidence=0.52)",
+            "traffic light detected (confidence=0.36)"
+        ]
+    },
+    "explainability": {
+        "final_action": "SLOW",
+        "explanation": "The perception system detected 29 object(s) in the scene. Detected objects include: 24 car, 2 traffic light, 3 traffic sign. The scene was classified as 'traffic-controlled road'. Traffic density was classified as 'high'. The estimated scene risk level was 'MODERATE'. The scene contained 24 vehicle(s), 0 vulnerable road user(s), and 5 traffic control object(s). The Planning Agent proposed 'SLOW'. Planning reason: Traffic control infrastructure detected. Reduce speed and prepare for a possible change in driving conditions. The Safety Agent returned 'APPROVE' with safety level 'CAUTION'. Safety reasoning: Traffic control infrastructure detected. Therefore, the final recommended driving action is 'SLOW'.",
+        "object_summary": {
+            "car": 24,
+            "traffic sign": 3,
+            "traffic light": 2
+        },
+        "scene_type": "traffic-controlled road",
+        "traffic_density": "high",
+        "risk_level": "MODERATE",
+        "planning_action": "SLOW",
+        "safety_decision": "APPROVE",
+        "safety_level": "CAUTION"
+    },
+    "final_action": "SLOW",
+    "processing_time_seconds": 4.3
+}
